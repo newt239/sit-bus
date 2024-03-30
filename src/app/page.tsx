@@ -1,5 +1,14 @@
 import { getNextBus } from "#/utils/functions";
 
+const links = [
+  {
+    label: "公式の時刻表",
+    url: "http://bus.shibaura-it.ac.jp/ts/today_sheet.php",
+  },
+  { label: "GitHub", url: "https://github.com/newt239/sit-bus" },
+  { label: "Twitter", url: "https://twitter.com/newt239" },
+];
+
 export default async function Home() {
   const nextBus = await getNextBus();
   if (!nextBus)
@@ -39,14 +48,17 @@ export default async function Home() {
             <div>{rightBusLeft}</div>
           </div>
         </div>
-        <div className="flex h-1/6 items-center justify-center p-12">
-          <a
-            className="text-blue-500 hover:underline"
-            href="http://bus.shibaura-it.ac.jp/ts/today_sheet.php"
-            target="_blank"
-          >
-            公式の時刻表
-          </a>
+        <div className="flex h-1/6 items-center justify-center p-12 gap-4">
+          {links.map((link) => (
+            <a
+              key={link.url}
+              className=" text-blue-500 hover:underline"
+              href={link.url}
+              target="_blank"
+            >
+              {link.label}
+            </a>
+          ))}
         </div>
       </main>
     </>
