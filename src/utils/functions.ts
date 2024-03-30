@@ -1,7 +1,13 @@
 import dayjs from "dayjs";
+import timezone from "dayjs/plugin/timezone";
+import utc from "dayjs/plugin/utc";
 import { BusAPIResponse, List } from "./types";
 
 export const getNextBus = async () => {
+  dayjs.locale("ja");
+  dayjs.extend(utc);
+  dayjs.extend(timezone);
+
   try {
     const res = await fetch("http://bus.shibaura-it.ac.jp/db/bus_data.json");
     const data: BusAPIResponse = await res.json();
