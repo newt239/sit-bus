@@ -25,17 +25,30 @@ export default async function Home() {
     rightBus === "なし" ? "" : `あと${nextBus.nextRightBus.left}分`;
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>
-        <div>大学行</div>
-        <div className="text-8xl">{leftBus}</div>
-        <div>{leftBusLeft}</div>
-      </div>
-      <div>
-        <div>東大宮駅行</div>
-        <div className="text-8xl">{rightBus}</div>
-        <div>{rightBusLeft}</div>
-      </div>
-    </main>
+    <>
+      <main className="flex h-screen flex-col items-center justify-between">
+        <div className="flex h-5/6 flex-col items-center justify-between p-24">
+          <div>
+            <div>大学行</div>
+            <div className="text-8xl">{leftBus}</div>
+            <div>{leftBusLeft}</div>
+          </div>
+          <div>
+            <div>東大宮駅行</div>
+            <div className="text-8xl">{rightBus}</div>
+            <div>{rightBusLeft}</div>
+          </div>
+        </div>
+        <div className="flex h-1/6 items-center justify-center p-12">
+          <a
+            className="text-blue-500 hover:underline"
+            href="http://bus.shibaura-it.ac.jp/ts/today_sheet.php"
+            target="_blank"
+          >
+            公式の時刻表
+          </a>
+        </div>
+      </main>
+    </>
   );
 }
