@@ -7,13 +7,15 @@ export const getNextBus = async () => {
   dayjs.locale("ja");
   dayjs.extend(utc);
   dayjs.extend(timezone);
+  dayjs.tz.setDefault("Asia/Tokyo");
 
   try {
     const res = await fetch("http://bus.shibaura-it.ac.jp/db/bus_data.json");
     const data: BusAPIResponse = await res.json();
-    const day = dayjs().format("D");
-    const hour = parseInt(dayjs().format("H"));
-    const minute = parseInt(dayjs().format("m"));
+    const current = dayjs().tz("Asia/Tokyo");
+    const day = current.format("D");
+    const hour = parseInt(current.format("H"));
+    const minute = parseInt(current.format("m"));
     const ts_id = data.calendar[0].list.find((item) => item.day === day)?.ts_id;
     const current_timesheet = data.timesheet.find(
       (item) => item.ts_id === ts_id
