@@ -1,0 +1,4453 @@
+{
+  "update": "2024-03-22 09:49:03",
+  "timesheet": [
+    {
+      "status": "public",
+      "edit_time": "2023-03-27 14:59:14",
+      "up_time": "2023-11-27 14:21:49",
+      "title": "【平日用】2023年度 大宮キャンパス 学バス時刻表（休業期間　平日）",
+      "ts_id": "SwUZsaOJWF",
+      "back_color": "#91eecf",
+      "text1": "2023年度（休業期間　平日）",
+      "text2": "2023年3月18日ダイヤ改正後",
+      "text3": "道路事情により、若干ダイヤが乱れる場合がありますのでご了承ください。",
+      "cal_text": "14",
+      "double_line": "14",
+      "list": [
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.10.a17.a34.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "7",
+          "train_right": {
+            "num1": "d00.b05.h10.14.b20.g25.e32.a38.h44.b50.j55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.14.23.31.40.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.11.a20.a28.37.a44.a56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "8",
+          "train_right": {
+            "num1": "a01.06.j13.d22.d31.b39.d48.j59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.17.25.34.41.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.16.24.38.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a13.17.a21.29.35.b42.a48.a55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "9",
+          "train_right": {
+            "num1": "a10.d19.29.a36.d48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "10.18.32.52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.29.38.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "08.a22.26.b35.a41.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "10",
+          "train_right": {
+            "num1": "a03.g16.g32.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.23.32.38.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.13.27.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a10.a14.24.30.a46.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "11",
+          "train_right": {
+            "num1": "a06.g15.g31.a35.d55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "07.21.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.20.35.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.32.a46.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "12",
+          "train_right": {
+            "num1": "a05.g18.g31.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.14.29.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.21.33.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.30.a46.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "13",
+          "train_right": {
+            "num1": "a06.g16.g31.a35.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.15.27.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.20.33.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.a30.a47.a51■",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "14",
+          "train_right": {
+            "num1": "a06.g16.g31.a35.f53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.14.27.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "09.28.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.31.a48.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "15",
+          "train_right": {
+            "num1": "a05.e14.i33.a37.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "03.22.41.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "01.14.32.46",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a45.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "16",
+          "train_right": {
+            "num1": "a06.d19.a37.41.i51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.26.40.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.16.25.34.46",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a08.b19.a27.35.a47.52.a59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "17",
+          "train_right": {
+            "num1": "f00.a05.d15.h21.30.g34.a39.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "10.19.28.40.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.07.33.39",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.18.a26.34.b47.a51.a55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "18",
+          "train_right": {
+            "num1": "i05.b12.d26.d38.b44.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "01.27.33.56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "02.21.44.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "01.a10.18.a23.30.41.b47.a52.a58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "19",
+          "train_right": {
+            "num1": "e07.a17.e26.b34.39.e49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "15.38.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "23.46",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.a18.27.34.a44.a49.b54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "20",
+          "train_right": {
+            "num1": "b04.g11.g28.a38.43.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "17.40.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "05",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a11.b18.a27.38.48.a53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "21",
+          "train_right": {
+            "num1": "a03.d10.24.38.f42.b46.h58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a05.09.a23.36.a48.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "22",
+          "train_right": {
+            "num1": "g17.27.36.45",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        }
+      ]
+    },
+    {
+      "status": "public",
+      "edit_time": "2023-08-02 15:09:08",
+      "up_time": "2023-11-27 14:51:25",
+      "title": "2023年度　大宮キャンパス　学バス時刻表 (休業期間中の土曜日)",
+      "ts_id": "R5vf6K1bhx",
+      "back_color": "#e5e845",
+      "text1": "2023年9月16日、2024年1月27日",
+      "text2": "2023年3月18日 ダイヤ改正以降",
+      "text3": "道路事情により、若干ダイヤが乱れる場合がありますのでご了承ください。",
+      "cal_text": "14",
+      "double_line": "14",
+      "list": [
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.10.a17.a33.a49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "7",
+          "train_right": {
+            "num1": "d01.b12.e23.d31.a36.e45.50.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.14.27.34.43.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.11.a24.a31.a40.a47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "8",
+          "train_right": {
+            "num1": "a04.d10.j17.e25.a31.35.47.d58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.21.28.37.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "08.28.46",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a05.19■.a25.a43.48.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "9",
+          "train_right": {
+            "num1": "a10.d20.30.a36.d47.d59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "02.22.40",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.42",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.a08.26■.a34.a39.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "10",
+          "train_right": {
+            "num1": "a06.g16.g33.a38.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.36.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.33.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a10.a15.24.30.a46.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "11",
+          "train_right": {
+            "num1": "a06.g16.g31.a36.d55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "27.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.35.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a17.32.a46.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "12",
+          "train_right": {
+            "num1": "a05.g18.g31.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.29.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a46.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "13",
+          "train_right": {
+            "num1": "a06.g16.g30.a35.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.30.a47.a51■",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "14",
+          "train_right": {
+            "num1": "a06.g16.e30.a35.f53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.28.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.31.a48.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "15",
+          "train_right": {
+            "num1": "a05.e14.i33.a37.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.22.41.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "01.12.31.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.29.a45.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "16",
+          "train_right": {
+            "num1": "a06.d17.e36.a40.i48.f58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "06.25.47.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "04.11.29.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a08.b20.a27.36.a47.a58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "17",
+          "train_right": {
+            "num1": "a09.d16.e24.34.a39.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.23.41.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.21.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.a18.a24.33.48.53.a59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "18",
+          "train_right": {
+            "num1": "i05.a10.d26.b36.d41.e53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "15.42",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "08.30.45",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a04.14.a23.40.a48.b52.a57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "19",
+          "train_right": {
+            "num1": "a05.h13.e26.a35.40.e50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "02.24.39",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "22.56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a11.19.27.a43.a48.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "20",
+          "train_right": {
+            "num1": "b06.g12.g27.b39.44.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "16.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b03.a11.a27.38.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "21",
+          "train_right": {
+            "num1": "a01.d10.18.38.f42.b47.h59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.a05.09.23.a33.44.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "22",
+          "train_right": {
+            "num1": "g18.27.36.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        }
+      ]
+    },
+    {
+      "status": "public",
+      "edit_time": "2024-02-26 10:02:05",
+      "up_time": "2024-03-01 09:04:06",
+      "title": "【平日用】　2024年度　大宮キャンパス　学バス時刻表 ",
+      "ts_id": "nooti4FntS",
+      "back_color": "#1abc42",
+      "text1": "2024年4月15日以降 ",
+      "text2": "2024年3月16日以降  ダイヤ改正後",
+      "text3": "道路事情により、若干ダイヤが乱れる場合がありますのでご了承ください。",
+      "cal_text": "14",
+      "double_line": "14",
+      "list": [
+        {
+          "bus_left": {
+            "num1": "53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.10.a17.a34.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "7",
+          "train_right": {
+            "num1": "d00.b05.h10.14.b20.g25.e32.a38.h44.b50.j55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "47.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "8:03より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.11.a20.a28.37.a44.a56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "8",
+          "train_right": {
+            "num1": "a01.06.j13.d22.d31.b39.d48.j59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "9:16まで間隔を狭めて運行",
+            "num2": "20.24.32.38.45.59",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a13.17.a21.29.35.b42.a48.a56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "9",
+          "train_right": {
+            "num1": "a10.d19.29.a36.d48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "9:10まで間隔を狭めて運行",
+            "num2": "14.18.26.32.39.53",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "10:16より10:44まで間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "13.a22.26.b35.a41.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "10",
+          "train_right": {
+            "num1": "a03.g17.g32.a37.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "10:10より10:38まで間隔を狭めて運行",
+            "num2": "54",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.13.27.33.49.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a10.a14.24.30.a46.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "11",
+          "train_right": {
+            "num1": "a06.g15.g31.a36.d55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "07.21.27.43.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.20.35.49.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.32.a46.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "12",
+          "train_right": {
+            "num1": "a05.g18.g31.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.14.29.43.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.32.49.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a46.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "13",
+          "train_right": {
+            "num1": "a06.g16.g31.a36.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.26.43.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.20.33.50",
+            "memo1": "14:54より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.a30.a47.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "14",
+          "train_right": {
+            "num1": "a06.g16.g31.a35.h53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.14.27.44",
+            "memo1": "14:48より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "15:32まで間隔を狭めて運行",
+            "num2": "47",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.31.a48.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "15",
+          "train_right": {
+            "num1": "a05.e15.i33.a37.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "15:26まで間隔を狭めて運行",
+            "num2": "41.55",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "01.14.32.36.44",
+            "memo1": "16:55より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a45.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "16",
+          "train_right": {
+            "num1": "a06.d19.37.a41.i49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.26.30.38",
+            "memo1": "16:49より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "17:26まで間隔を狭めて運行",
+            "num2": "30.47",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a08.b19.a27.35.a47.a52.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "17",
+          "train_right": {
+            "num1": "d00.a05.e15.h21.31.e35.a39.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "17:20まで間隔を狭めて運行",
+            "num2": "24.41.54",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.07.21",
+            "memo1": "18:39より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.18.a26.34.b47.a51.a55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "18",
+          "train_right": {
+            "num1": "i05.a12.d26.d38.b44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "01.15",
+            "memo1": "18:33より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "19:22まで間隔を狭めて運行",
+            "num2": "33.46.59",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "01.a10.18.a23.30.41.b47.a52.a58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "19",
+          "train_right": {
+            "num1": "e00.e08.a17.e27.b38.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "19:16まで間隔を狭めて運行",
+            "num2": "27.40.53",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.23.33.46.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.a18.27.a34.a44.b52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "20",
+          "train_right": {
+            "num1": "b04.g11.15.g28.a38.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.17.27.40.52.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "05.19.30.42.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a11.b18.a26.31.a47.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "21",
+          "train_right": {
+            "num1": "a03.d10.24.35.f42.b47.h58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "13.24.36.47.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "01",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a05.11.a24.36.a48.56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "22",
+          "train_right": {
+            "num1": "g17.27.36.45",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        }
+      ]
+    },
+    {
+      "status": "public",
+      "edit_time": "2024-02-26 10:02:15",
+      "up_time": "2024-03-22 09:48:32",
+      "title": "【土曜日用】2024年度　大宮キャンパス　学バス時刻表 ",
+      "ts_id": "rDEkTYKO54",
+      "back_color": "#e8ac45",
+      "text1": "2024年4月13日 以降　土曜日用 ",
+      "text2": "2024年3月16日 ダイヤ改正以降",
+      "text3": "道路事情により、若干ダイヤが乱れる場合がありますのでご了承ください。",
+      "cal_text": "14",
+      "double_line": "14",
+      "list": [
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.10.a17.a33.a49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "7",
+          "train_right": {
+            "num1": "d01.b12.e23.d31.a36.e45.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "8:03より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.11.a24.a31.a40.a47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "8",
+          "train_right": {
+            "num1": "a04.d10.j17.e25.a31.35.47.d58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "9:22まで間隔を狭めて運行",
+            "num2": "28.46.51.56",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a05.19.a25.a43.48.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "9",
+          "train_right": {
+            "num1": "a10.d20.30.a37.d47.d59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "9:16まで間隔を狭めて運行",
+            "num2": "22.40.45.50",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "10:16より10:42まで間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.a13.26.a34.a39.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "10",
+          "train_right": {
+            "num1": "a06.g17.g33.a39.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "10:10より10:36まで間隔を狭めて運行",
+            "num2": "54",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.13.33.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a10.a15.24.30.a46.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "11",
+          "train_right": {
+            "num1": "a06.g16.g32.a36.d55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "07.27.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.20.35.49.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a17.32.a46.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "12",
+          "train_right": {
+            "num1": "a05.g18.g31.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.14.29.43.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.32.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a46.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "13",
+          "train_right": {
+            "num1": "a06.g16.g30.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.26.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.19.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a16.30.a47.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "14",
+          "train_right": {
+            "num1": "a06.g16.e30.a35.h53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.13.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "15:09より15:47まで間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.31.a47.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "15",
+          "train_right": {
+            "num1": "a05.e14.i33.a37.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "15:03より15:41まで間隔を狭めて運行",
+            "num2": "55",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "01.12.32.36.43.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.29.a45.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "16",
+          "train_right": {
+            "num1": "a06.d17.e37.a41.i48.d58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "06.26.30.37.47.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "04.11.19.29.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a08.b20.a27.36.a47.a58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "17",
+          "train_right": {
+            "num1": "a09.e16.e24.34.a39.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.13.23.41.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.21.36.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.a18.a24.33.48.53.a59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "18",
+          "train_right": {
+            "num1": "i05.a10.d26.b37.d41.e53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "15.30.42.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.08.21.30.45",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a04.14.a23.40.a48.b52.a57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "19",
+          "train_right": {
+            "num1": "a05.h13.e26.a35.e50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "02.15.24.39.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.18.34.47.56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a11.19.29.a43.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "20",
+          "train_right": {
+            "num1": "b05.g12.23.g28.b39.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "12.28.41.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "13.29.42.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b03.a11.a27.38.a48.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "21",
+          "train_right": {
+            "num1": "a01.d10.18.34.f40.b47.h59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "07.23.36.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "05.09.a23.a33.44.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "22",
+          "train_right": {
+            "num1": "g18.27.36.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        }
+      ]
+    },
+    {
+      "status": "public",
+      "edit_time": "2024-02-26 14:59:51",
+      "up_time": "2024-02-27 12:58:23",
+      "title": "【平日用】　2023年度　大宮キャンパス　学バス時刻表 （ 2024年3月18日～3月29日）",
+      "ts_id": "656mVc9Ma0",
+      "back_color": "#1abc42",
+      "text1": "2024年3月16日以降 ",
+      "text2": "2024年3月16日以降  ダイヤ改正後",
+      "text3": "道路事情により、若干ダイヤが乱れる場合がありますのでご了承ください。",
+      "cal_text": "14",
+      "double_line": "14",
+      "list": [
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.10.a17.a34.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "7",
+          "train_right": {
+            "num1": "d00.b05.h10.14.b20.g25.e32.a38.h44.b50.j55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.14.23.31.40.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.11.a20.a28.37.a44.a56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "8",
+          "train_right": {
+            "num1": "a01.06.j13.d22.d31.b39.d48.j59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.17.25.34.41.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.16.24.38.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a13.17.a21.29.35.b42.a48.a56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "9",
+          "train_right": {
+            "num1": "a10.d19.29.a36.d48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "10.18.32.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "16.29.38.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "13.a22.26.b35.a41.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "10",
+          "train_right": {
+            "num1": "a03.g17.g32.a37.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "10.23.32.38.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.13.27.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a10.a14.24.30.a46.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "11",
+          "train_right": {
+            "num1": "a06.g15.g31.a36.d55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "07.21.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.20.35.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.32.a46.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "12",
+          "train_right": {
+            "num1": "a05.g18.g31.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.14.29.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.21.32.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a46.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "13",
+          "train_right": {
+            "num1": "a06.g16.g31.a36.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.15.26.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.20.33.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.a30.a47.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "14",
+          "train_right": {
+            "num1": "a06.g16.g31.a35.h53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.14.27.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.28.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.31.a48.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "15",
+          "train_right": {
+            "num1": "a05.e15.i33.a37.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.22.41.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "01.14.32.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a45.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "16",
+          "train_right": {
+            "num1": "a06.d19.37.a41.i49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.26.38.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.16.26.34.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a08.b19.a27.35.a47.a52.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "17",
+          "train_right": {
+            "num1": "d00.a05.e15.h21.31.e35.a39.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "10.20.28.41.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.07.33.39",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.18.a26.34.b47.a51.a55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "18",
+          "train_right": {
+            "num1": "i05.a12.d26.d38.b44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "01.27.33.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.22.46.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "01.a10.18.a23.30.41.b47.a52.a58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "19",
+          "train_right": {
+            "num1": "e00.e08.a17.e27.b38.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "16.40.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "23.46",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.a18.27.a34.a44.b52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "20",
+          "train_right": {
+            "num1": "b04.g11.15.g28.a38.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "17.40.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "05",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a11.b18.a26.31.a47.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "21",
+          "train_right": {
+            "num1": "a03.d10.24.35.f42.b47.h58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a05.11.a24.36.a48.56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "22",
+          "train_right": {
+            "num1": "g17.27.36.45",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        }
+      ]
+    },
+    {
+      "status": "public",
+      "edit_time": "2024-02-26 15:04:30",
+      "up_time": "2024-02-26 17:18:57",
+      "title": "【土曜日用】2023年度　大宮キャンパス　学バス時刻表（2024年3月16,23,30日）",
+      "ts_id": "g0SjTEAmXE",
+      "back_color": "#e8ac45",
+      "text1": "2024年3月16日～31日　土曜日",
+      "text2": "2024年3月16日 ダイヤ改正以降",
+      "text3": "道路事情により、若干ダイヤが乱れる場合がありますのでご了承ください。",
+      "cal_text": "14",
+      "double_line": "14",
+      "list": [
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.10.a17.a33.a49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "7",
+          "train_right": {
+            "num1": "d01.b12.e23.d31.a36.e45.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.14.27.34.43.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.11.a24.a31.a40.a47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "8",
+          "train_right": {
+            "num1": "a04.d10.j17.e25.a31.35.47.d58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.21.28.37.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "08.28.46",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a05.19.a25.a43.48.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "9",
+          "train_right": {
+            "num1": "a10.d20.30.a37.d47.d59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "02.22.40",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "16.42",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.a13.26.a34.a39.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "10",
+          "train_right": {
+            "num1": "a06.g17.g33.a39.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "10.36.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.33.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a10.a15.24.30.a46.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "11",
+          "train_right": {
+            "num1": "a06.g16.g32.a36.d55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "27.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.35.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a17.32.a46.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "12",
+          "train_right": {
+            "num1": "a05.g18.g31.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.29.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a46.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "13",
+          "train_right": {
+            "num1": "a06.g16.g30.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a16.30.a47.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "14",
+          "train_right": {
+            "num1": "a06.g16.e30.a35.h53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "09.28.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.31.a47.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "15",
+          "train_right": {
+            "num1": "a05.e14.i33.a37.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "03.22.41.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "01.12.32.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.29.a45.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "16",
+          "train_right": {
+            "num1": "a06.d17.e37.a41.i48.d58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "06.26.47.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "04.11.29.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a08.b20.a27.36.a47.a58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "17",
+          "train_right": {
+            "num1": "a09.e16.e24.34.a39.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.23.41.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.21.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.a18.a24.33.48.53.a59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "18",
+          "train_right": {
+            "num1": "i05.a10.d26.b37.d41.e53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "15.42",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "08.30.45",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a04.14.a23.40.a48.b52.a57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "19",
+          "train_right": {
+            "num1": "a05.h13.e26.a35.e50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "02.24.39",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "18.56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a11.19.29.a43.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "20",
+          "train_right": {
+            "num1": "b05.g12.23.g28.b39.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "12.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b03.a11.a27.38.a48.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "21",
+          "train_right": {
+            "num1": "a01.d10.18.34.f40.b47.h59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "05.09.a23.a33.44.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "22",
+          "train_right": {
+            "num1": "g18.27.36.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        }
+      ]
+    },
+    {
+      "status": "public",
+      "edit_time": "2024-02-26 17:35:42",
+      "up_time": "2024-02-28 11:39:28",
+      "title": "【平日用】　2024年度　大宮キャンパス　学バス時刻表 (入学手続・ガイダンス等)",
+      "ts_id": "OF39VXCs53",
+      "back_color": "#f6f88b",
+      "text1": "2024年4月1~12日の平日",
+      "text2": "2024年3月16日以降  ダイヤ改正後",
+      "text3": "道路事情により、若干ダイヤが乱れる場合がありますのでご了承ください。",
+      "cal_text": "14",
+      "double_line": "13",
+      "list": [
+        {
+          "bus_left": {
+            "num1": "53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.10.a17.a34.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "7",
+          "train_right": {
+            "num1": "d00.b05.h10.14.b20.g25.e32.a38.h44.b50.j55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "47.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.14.23",
+            "memo1": "8:31より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.11.a20.a28.37.a44.a56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "8",
+          "train_right": {
+            "num1": "a01.06.j13.d22.d31.b39.d48.j59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.17",
+            "memo1": "8:25より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a13.17.a21.29.35.b42.a48.a56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "9",
+          "train_right": {
+            "num1": "a10.d19.29.a36.d48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "13.a22.26.b35.a41.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "10",
+          "train_right": {
+            "num1": "a03.g17.g32.a37.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "10:54まで間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "11:00まで間隔を狭めて運行",
+            "num2": "13.27.49.55",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a10.a14.24.30.a46.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "11",
+          "train_right": {
+            "num1": "a06.g15.g31.a36.d55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "07.21.43.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.20.35.49.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.32.a46.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "12",
+          "train_right": {
+            "num1": "a05.g18.g31.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.14.29.43.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.21.32.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a46.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "13",
+          "train_right": {
+            "num1": "a06.g16.g31.a36.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.15.26.43",
+            "memo1": "13:55より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "14:01より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.a30.a47.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "14",
+          "train_right": {
+            "num1": "a06.g16.g31.a35.h53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.31.a48.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "15",
+          "train_right": {
+            "num1": "a05.e15.i33.a37.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "16:32まで間隔を狭めて運行",
+            "num2": "44",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a45.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "16",
+          "train_right": {
+            "num1": "a06.d19.37.a41.i49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "16:26まで間隔を狭めて運行",
+            "num2": "38.54",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.10.16.26.30.34.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a08.b19.a27.35.a47.a52.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "17",
+          "train_right": {
+            "num1": "d00.a05.e15.h21.31.e35.a39.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.10.20.24.28.41.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.07.21.33.39.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.18.a26.34.b47.a51.a55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "18",
+          "train_right": {
+            "num1": "i05.a12.d26.d38.b44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "01.15.27.33.49.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.12.22.33.46.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "01.a10.18.a23.30.41.b47.a52.a58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "19",
+          "train_right": {
+            "num1": "e00.e08.a17.e27.b38.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "06.16.27.40.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "06.10.23.46.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.a18.27.a34.a44.b52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "20",
+          "train_right": {
+            "num1": "b04.g11.15.g28.a38.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "00.04.17.40.52.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "05.19.30.37.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a11.b18.a26.31.a47.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "21",
+          "train_right": {
+            "num1": "a03.d10.24.35.f42.b47.h58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "13.24.31.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a05.11.a24.36.a48.56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "22",
+          "train_right": {
+            "num1": "g17.27.36.45",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        }
+      ]
+    },
+    {
+      "status": "public",
+      "edit_time": "2024-02-26 17:35:56",
+      "up_time": "2024-03-01 09:14:00",
+      "title": "【土曜日用】2024年度　大宮キャンパス　学バス時刻表（ガイダンス中の4月6日）",
+      "ts_id": "WIW96gsd8J",
+      "back_color": "#f2bda6",
+      "text1": "2024年4月６日 　土曜日用 ",
+      "text2": "2024年3月16日 ダイヤ改正以降",
+      "text3": "道路事情により、若干ダイヤが乱れる場合がありますのでご了承ください。",
+      "cal_text": "14",
+      "double_line": "10",
+      "list": [
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.10.a17.a33.a49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "7",
+          "train_right": {
+            "num1": "d01.b12.e23.d31.a36.e45.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.14.27",
+            "memo1": "8:34より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.11.a24.a31.a40.a47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "8",
+          "train_right": {
+            "num1": "a04.d10.j17.e25.a31.35.47.d58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.21",
+            "memo1": "8:28より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a05.19.a25.a43.48.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "9",
+          "train_right": {
+            "num1": "a10.d20.30.a37.d47.d59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "10:29まで間隔を狭めて運行",
+            "num2": "37.42",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.a13.26.a34.a39.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "10",
+          "train_right": {
+            "num1": "a06.g17.g33.a39.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "10:23まで間隔を狭めて運行",
+            "num2": "31.36.55",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "01.11.27.41",
+            "memo1": "",
+            "num2": "",
+            "memo2": "11:50より間隔を狭めて運行"
+          },
+          "train_left": {
+            "num1": "a10.a15.24.30.a46.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "11",
+          "train_right": {
+            "num1": "a06.g16.g32.a36.d55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.21.35",
+            "memo1": "",
+            "num2": "",
+            "memo2": "11:44より間隔を狭めて運行"
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "12:25まで間隔を狭めて運行",
+            "num2": "31.46",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a17.32.a46.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "12",
+          "train_right": {
+            "num1": "a05.g18.g31.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "12:19まで間隔を狭めて運行",
+            "num2": "25.40",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.21.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a46.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "13",
+          "train_right": {
+            "num1": "a06.g16.g30.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.15.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.19.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a16.30.a47.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "14",
+          "train_right": {
+            "num1": "a06.g16.e30.a35.h53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.13.44.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00",
+            "memo1": "15:09より間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.31.a47.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "15",
+          "train_right": {
+            "num1": "a05.e14.i33.a37.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "15:03より15:55まで間隔を狭めて運行",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "16:01まで間隔を狭めて運行",
+            "num2": "12.32.53",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.29.a45.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "16",
+          "train_right": {
+            "num1": "a06.d17.e37.a41.i48.d58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "06.26.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "19.29.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a08.b20.a27.36.a47.a58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "17",
+          "train_right": {
+            "num1": "a09.e16.e24.34.a39.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "13.23.41.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.21.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.a18.a24.33.48.53.a59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "18",
+          "train_right": {
+            "num1": "i05.a10.d26.b37.d41.e53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "15.42",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "08.30.45",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a04.14.a23.40.a48.b52.a57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "19",
+          "train_right": {
+            "num1": "a05.h13.e26.a35.e50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "02.24.39",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "18.56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a11.19.29.a43.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "20",
+          "train_right": {
+            "num1": "b05.g12.23.g28.b39.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "12.50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b03.a11.a27.38.a48.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "21",
+          "train_right": {
+            "num1": "a01.d10.18.34.f40.b47.h59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "05.09.a23.a33.44.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "22",
+          "train_right": {
+            "num1": "g18.27.36.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        }
+      ]
+    },
+    {
+      "status": "public",
+      "edit_time": "2024-02-28 11:59:40",
+      "up_time": "2024-02-28 11:59:54",
+      "title": "【平日用】　2024年度　大宮キャンパス　学バス時刻表 （ 措置休講日） ",
+      "ts_id": "iz2VYAoASj",
+      "back_color": "#a1e2de",
+      "text1": "2024年3月16日以降 ",
+      "text2": "2024年3月16日以降  ダイヤ改正後",
+      "text3": "道路事情により、若干ダイヤが乱れる場合がありますのでご了承ください。",
+      "cal_text": "14",
+      "double_line": "14",
+      "list": [
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a01.10.a17.a34.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "7",
+          "train_right": {
+            "num1": "d00.b05.h10.14.b20.g25.e32.a38.h44.b50.j55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.14.23.31.40.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a00.11.a20.a28.37.a44.a56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "8",
+          "train_right": {
+            "num1": "a01.06.j13.d22.d31.b39.d48.j59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.17.25.34.41.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.16.24.38.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a13.17.a21.29.35.b42.a48.a56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "9",
+          "train_right": {
+            "num1": "a10.d19.29.a36.d48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "10.18.32.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "16.29.38.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "13.a22.26.b35.a41.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "10",
+          "train_right": {
+            "num1": "a03.g17.g32.a37.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "10.23.32.38.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.13.27.49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a10.a14.24.30.a46.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "11",
+          "train_right": {
+            "num1": "a06.g15.g31.a36.d55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "07.21.43",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.20.35.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.32.a46.a54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "12",
+          "train_right": {
+            "num1": "a05.g18.g31.a36.d51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.14.29.51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "11.21.32.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a46.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "13",
+          "train_right": {
+            "num1": "a06.g16.g31.a36.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "05.15.26.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.20.33.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a17.a30.a47.a51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "14",
+          "train_right": {
+            "num1": "a06.g16.g31.a35.h53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.14.27.48",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "10.28.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b07.a18.31.a48.a52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "15",
+          "train_right": {
+            "num1": "a05.e15.i33.a37.e52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "04.22.41.55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "01.14.32.44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b08.a18.29.a45.a50",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "16",
+          "train_right": {
+            "num1": "a06.d19.37.a41.i49",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "08.26.38.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.16.26.34.47",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a08.b19.a27.35.a47.a52.58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "17",
+          "train_right": {
+            "num1": "d00.a05.e15.h21.31.e35.a39.d52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "10.20.28.41.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "00.07.33.39",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.18.a26.34.b47.a51.a55",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "18",
+          "train_right": {
+            "num1": "i05.a12.d26.d38.b44",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "01.27.33.57",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "03.22.46.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "01.a10.18.a23.30.41.b47.a52.a58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "19",
+          "train_right": {
+            "num1": "e00.e08.a17.e27.b38.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "16.40.53",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "23.46",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "b11.a18.27.a34.a44.b52",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "20",
+          "train_right": {
+            "num1": "b04.g11.15.g28.a38.e51",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "17.40.59",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "05",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "00.a11.b18.a26.31.a47.54",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "21",
+          "train_right": {
+            "num1": "a03.d10.24.35.f42.b47.h58",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        },
+        {
+          "bus_left": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "train_left": {
+            "num1": "a05.11.a24.36.a48.56",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "time": "22",
+          "train_right": {
+            "num1": "g17.27.36.45",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          },
+          "bus_right": {
+            "num1": "",
+            "memo1": "",
+            "num2": "",
+            "memo2": ""
+          }
+        }
+      ]
+    }
+  ],
+  "calendar": [
+    {
+      "status": "public",
+      "edit_time": "2023-12-12 11:21:26",
+      "up_time": "2024-03-11 08:31:13",
+      "title": "2024年3月　学バスカレンダー",
+      "year": "2024",
+      "month": "03",
+      "text1": "",
+      "list": [
+        {
+          "day": "1",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "2",
+          "ts_id": "R5vf6K1bhx",
+          "comment": ""
+        },
+        {
+          "day": "3",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "4",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "5",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "6",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "7",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "8",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "9",
+          "ts_id": "R5vf6K1bhx",
+          "comment": ""
+        },
+        {
+          "day": "10",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "11",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "12",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "13",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "14",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "15",
+          "ts_id": "SwUZsaOJWF",
+          "comment": ""
+        },
+        {
+          "day": "16",
+          "ts_id": "g0SjTEAmXE",
+          "comment": ""
+        },
+        {
+          "day": "17",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "18",
+          "ts_id": "656mVc9Ma0",
+          "comment": ""
+        },
+        {
+          "day": "19",
+          "ts_id": "656mVc9Ma0",
+          "comment": ""
+        },
+        {
+          "day": "20",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "21",
+          "ts_id": "656mVc9Ma0",
+          "comment": ""
+        },
+        {
+          "day": "22",
+          "ts_id": "656mVc9Ma0",
+          "comment": ""
+        },
+        {
+          "day": "23",
+          "ts_id": "g0SjTEAmXE",
+          "comment": ""
+        },
+        {
+          "day": "24",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "25",
+          "ts_id": "656mVc9Ma0",
+          "comment": ""
+        },
+        {
+          "day": "26",
+          "ts_id": "656mVc9Ma0",
+          "comment": ""
+        },
+        {
+          "day": "27",
+          "ts_id": "656mVc9Ma0",
+          "comment": ""
+        },
+        {
+          "day": "28",
+          "ts_id": "656mVc9Ma0",
+          "comment": ""
+        },
+        {
+          "day": "29",
+          "ts_id": "656mVc9Ma0",
+          "comment": ""
+        },
+        {
+          "day": "30",
+          "ts_id": "g0SjTEAmXE",
+          "comment": ""
+        },
+        {
+          "day": "31",
+          "ts_id": "none",
+          "comment": ""
+        }
+      ]
+    },
+    {
+      "status": "public",
+      "edit_time": "2023-12-12 11:26:39",
+      "up_time": "2024-03-01 09:25:55",
+      "title": "2024年4月　学バスカレンダー",
+      "year": "2024",
+      "month": "04",
+      "text1": "",
+      "list": [
+        {
+          "day": "1",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "2",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス・入学式"
+        },
+        {
+          "day": "3",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "4",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "5",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "6",
+          "ts_id": "WIW96gsd8J",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "7",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "8",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "9",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "10",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "11",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "12",
+          "ts_id": "OF39VXCs53",
+          "comment": "ガイダンス期間"
+        },
+        {
+          "day": "13",
+          "ts_id": "rDEkTYKO54",
+          "comment": "授業実施日"
+        },
+        {
+          "day": "14",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "15",
+          "ts_id": "nooti4FntS",
+          "comment": "授業実施日"
+        },
+        {
+          "day": "16",
+          "ts_id": "nooti4FntS",
+          "comment": ""
+        },
+        {
+          "day": "17",
+          "ts_id": "nooti4FntS",
+          "comment": ""
+        },
+        {
+          "day": "18",
+          "ts_id": "nooti4FntS",
+          "comment": ""
+        },
+        {
+          "day": "19",
+          "ts_id": "nooti4FntS",
+          "comment": ""
+        },
+        {
+          "day": "20",
+          "ts_id": "rDEkTYKO54",
+          "comment": ""
+        },
+        {
+          "day": "21",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "22",
+          "ts_id": "nooti4FntS",
+          "comment": ""
+        },
+        {
+          "day": "23",
+          "ts_id": "nooti4FntS",
+          "comment": ""
+        },
+        {
+          "day": "24",
+          "ts_id": "nooti4FntS",
+          "comment": ""
+        },
+        {
+          "day": "25",
+          "ts_id": "nooti4FntS",
+          "comment": ""
+        },
+        {
+          "day": "26",
+          "ts_id": "nooti4FntS",
+          "comment": ""
+        },
+        {
+          "day": "27",
+          "ts_id": "rDEkTYKO54",
+          "comment": ""
+        },
+        {
+          "day": "28",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "29",
+          "ts_id": "none",
+          "comment": ""
+        },
+        {
+          "day": "30",
+          "ts_id": "iz2VYAoASj",
+          "comment": "措置休講日"
+        }
+      ]
+    }
+  ],
+  "site_info": [
+    {
+      "status": "edit",
+      "up_time": "2023-08-02 17:01:58",
+      "title": "大宮スクールバス時刻表カレンダー",
+      "info_view": "on",
+      "info_title": "運行情報",
+      "info_text": "",
+      "will": {
+        "up": [
+          {
+            "mark": "default",
+            "name": "default",
+            "tip": "上野"
+          },
+          {
+            "mark": "a",
+            "name": "逗",
+            "tip": "逗子"
+          },
+          {
+            "mark": "b",
+            "name": "大",
+            "tip": "大船"
+          },
+          {
+            "mark": "c",
+            "name": "宮",
+            "tip": "大宮"
+          },
+          {
+            "mark": "d",
+            "name": "熱",
+            "tip": "熱海"
+          },
+          {
+            "mark": "e",
+            "name": "小",
+            "tip": "小田原"
+          },
+          {
+            "mark": "f",
+            "name": "沼",
+            "tip": "沼津"
+          },
+          {
+            "mark": "g",
+            "name": "平",
+            "tip": "平塚"
+          },
+          {
+            "mark": "h",
+            "name": "国",
+            "tip": "国府津"
+          },
+          {
+            "mark": "i",
+            "name": "伊",
+            "tip": "伊東"
+          },
+          {
+            "mark": "j",
+            "name": "品",
+            "tip": "品川"
+          }
+        ],
+        "down": [
+          {
+            "mark": "default",
+            "name": "default",
+            "tip": "小金井"
+          },
+          {
+            "mark": "a",
+            "name": "宇",
+            "tip": "宇都宮"
+          },
+          {
+            "mark": "b",
+            "name": "古",
+            "tip": "古河"
+          },
+          {
+            "mark": "c",
+            "name": "黒",
+            "tip": "黒磯"
+          },
+          {
+            "mark": "d",
+            "name": "い",
+            "tip": "いわき"
+          }
+        ]
+      }
+    }
+  ]
+}
