@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   description: "次の学バスを表示",
 };
 
-export const revalidate = 0;
+export const dynamic = "force-dynamic";
 
 export default function RootLayout({
   children,
