@@ -14,6 +14,10 @@ export const dynamic = "force-dynamic";
 
 const links = [
   {
+    label: "現在時刻",
+    url: "/",
+  },
+  {
     label: "公式の時刻表",
     url: "http://bus.shibaura-it.ac.jp/ts/today_sheet.php",
   },
@@ -39,7 +43,7 @@ export default function RootLayout({
                 key={link.url}
                 className=" text-blue-500 hover:underline"
                 href={link.url}
-                target="_blank"
+                target={link.url.startsWith("http") ? "_blank" : "_self"}
               >
                 {link.label}
               </a>

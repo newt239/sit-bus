@@ -9,7 +9,7 @@ dayjs.extend(timezone);
 dayjs.tz.setDefault("Asia/Tokyo");
 
 export default async function Home() {
-  const current = dayjs().tz("Asia/Tokyo");
+  const current = dayjs("2024-04-10T12:00").tz("Asia/Tokyo");
   const nextBus = await getNextBus(current);
 
   if (!nextBus) {
@@ -33,7 +33,9 @@ export default async function Home() {
     <>
       <div className="h-1/6 w-full flex items-center justify-center">
         <div className="w-full p-4 border-2 border-solid border-black rounded-md tect-center">
-          <h2>芝浦 次の学バス {current.format("HH:mm")}</h2>
+          <h2 className="text-center">
+            芝浦 {current.format("HH:mm")} 次のバス
+          </h2>
         </div>
       </div>
       <div className="flex flex-col items-center">

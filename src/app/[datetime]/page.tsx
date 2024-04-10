@@ -38,39 +38,47 @@ export default async function Page({ params }: { params: Params }) {
   return (
     <>
       <div className="h-1/6 w-full flex items-center justify-center">
-        <h2>芝浦 次の学バス {datetime.format("HH:mm")}</h2>
+        <div className="w-full p-4 border-2 border-solid border-black rounded-md text-center">
+          <h2 className="text-center">
+            芝浦 {datetime.format("HH:mm")} 次の学バス
+          </h2>
+        </div>
       </div>
-      <div className="h-5/6 flex flex-col justify-between">
-        <div className="flex flex-col items-center">
-          <div>大学行</div>
-          <div className="text-8xl">{nextBus.left.time}</div>
-          <div>{nextBus.left.text}</div>
-          {nextBus.left.text !== "" && (
-            <div>
-              <a
-                href={`${nextBus.date}T${nextBus.left.time}:00`}
-                className=" text-blue-500 hover:underline"
-              >
-                次のバス
-              </a>
-            </div>
-          )}
-        </div>
-        <div className="h-2/5 flex flex-col items-center">
-          <div>東大宮駅行</div>
-          <div className="text-8xl">{nextBus.right.time}</div>
-          <div>{nextBus.right.text}</div>
-          {nextBus.right.text !== "" && (
-            <div>
-              <a
-                href={`${nextBus.date}T${nextBus.right.time}:00`}
-                className=" text-blue-500 hover:underline"
-              >
-                次のバス
-              </a>
-            </div>
-          )}
-        </div>
+      <div className="flex flex-col items-center">
+        <div>大学行</div>
+        <div className="text-8xl">{nextBus.left.time}</div>
+        <div>{nextBus.left.text}</div>
+        {nextBus.left.text !== "" && (
+          <div>
+            <a
+              href={dayjs(`${nextBus.date}T${nextBus.left.time}:00`)
+                .tz("Asia/Tokyo")
+                .add(1, "minute")
+                .format("YYYY-MM-DDTHH:mm:ss")}
+              className=" text-blue-500 hover:underline"
+            >
+              次のバス
+            </a>
+          </div>
+        )}
+      </div>
+      <div className="flex flex-col items-center">
+        <div>東大宮駅行</div>
+        <div className="text-8xl">{nextBus.right.time}</div>
+        <div>{nextBus.right.text}</div>
+        {nextBus.right.text !== "" && (
+          <div>
+            <a
+              href={dayjs(`${nextBus.date}T${nextBus.right.time}:00`)
+                .tz("Asia/Tokyo")
+                .add(1, "minute")
+                .format("YYYY-MM-DDTHH:mm:ss")}
+              className=" text-blue-500 hover:underline"
+            >
+              次のバス
+            </a>
+          </div>
+        )}
       </div>
     </>
   );
