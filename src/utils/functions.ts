@@ -15,13 +15,15 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
     const leftBuses = getBusTimes("left", current_timesheet.list);
     let left = {
       time: "なし",
-      text: "",
+      text1: "",
+      text2: "",
     };
     for (const bus of leftBuses) {
       if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
         left = {
           time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
-          text:
+          text1: bus.minute === 60 ? `${bus.hour}時いっぱい` : "",
+          text2:
             bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
         };
         break;
@@ -31,13 +33,15 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
     const rightBuses = getBusTimes("right", current_timesheet.list);
     let right = {
       time: "なし",
-      text: "",
+      text1: "",
+      text2: "",
     };
     for (const bus of rightBuses) {
       if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
         right = {
           time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
-          text:
+          text1: bus.minute === 60 ? `${bus.hour}時いっぱい` : "",
+          text2:
             bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
         };
         break;
@@ -70,7 +74,13 @@ const getBusTimes = (direction: Direction, list: List[]) => {
     const memo = eachHour[`bus_${direction}`].memo1;
     let startMinute: number | null = null;
     let endMinute: number | null = null;
-    if (memo !== "") {
+    if (memo === "間隔を狭めて運行") {
+      buses.push({
+        hour: parseInt(eachHour.time),
+        minute: 60,
+        text: "間隔を狭めて運行",
+      });
+    } else if (memo !== "") {
       startMinute =
         parseInt(memo.replace(/\d{1,2}\:(\d{1,2})より.*/, "$1")) || null;
       if (startMinute) {

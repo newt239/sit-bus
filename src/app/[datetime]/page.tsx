@@ -44,9 +44,11 @@ export default async function Page({ params }: { params: Params }) {
       </div>
       <div className="flex flex-col items-center">
         <div>大学行</div>
-        <div className="text-8xl">{nextBus.left.time}</div>
-        <div>{nextBus.left.text}</div>
-        {nextBus.left.text !== "" && (
+        <div className="text-8xl">
+          {nextBus.left.text1 === "" ? nextBus.left.time : nextBus.left.text1}
+        </div>
+        <div>{nextBus.left.text2}</div>
+        {nextBus.left.text2 !== "" && (
           <div>
             <a
               href={dayjs(`${nextBus.date}T${nextBus.left.time}:00`)
@@ -61,9 +63,13 @@ export default async function Page({ params }: { params: Params }) {
       </div>
       <div className="flex flex-col items-center">
         <div>東大宮駅行</div>
-        <div className="text-8xl">{nextBus.right.time}</div>
-        <div>{nextBus.right.text}</div>
-        {nextBus.right.text !== "" && (
+        <div className="text-8xl">
+          {nextBus.right.text1 === ""
+            ? nextBus.right.time
+            : nextBus.right.text1}
+        </div>
+        <div>{nextBus.right.text2}</div>
+        {nextBus.right.text2 !== "" && (
           <div>
             <a
               href={dayjs(`${nextBus.date}T${nextBus.right.time}:00`)
