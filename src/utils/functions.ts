@@ -4,13 +4,12 @@ import { BusAPIResponse, Direction, List } from "./types";
 export const getNextBus = async (datetime: dayjs.Dayjs) => {
   const res = await fetch("http://bus.shibaura-it.ac.jp/db/bus_data.json");
   const data: BusAPIResponse = await res.json();
-  const day = datetime.format("D");
-  const hour = parseInt(datetime.format("H"));
-  const minute = parseInt(datetime.format("m"));
-  const ts_id = data.calendar[0].list.find((item) => item.day === day)?.ts_id;
+  const ts_id = detectTimesheetId(datetime, data);
   const current_timesheet = data.timesheet.find((item) => item.ts_id === ts_id);
   if (!current_timesheet) return null;
 
+  const hour = parseInt(datetime.format("H"));
+  const minute = parseInt(datetime.format("m"));
   try {
     const leftBuses = getBusTimes("left", current_timesheet.list);
     let left = {
@@ -55,6 +54,20 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
   }
 };
 
+const detectTimesheetId = (datetime: dayjs.Dayjs, data: BusAPIResponse) => {
+  const year = datetime.format("YYYY");
+  const month = datetime.format("MM");
+  const day = datetime.format("D");
+  const calender = data.calendar.find(
+    (item) => item.year === year && item.month === month
+  );
+  if (!calender) return undefined;
+  const ts_id = calender.list.find((item) => item.day === day)?.ts_id;
+  const dayTimesheet = data.timesheet.find((item) => item.ts_id === ts_id);
+  console.log(dayTimesheet?.ts_id);
+  return dayTimesheet?.ts_id;
+};
+
 const getBusTimes = (direction: Direction, list: List[]) => {
   const buses = [];
   for (const eachHour of list) {
@@ -81,23 +94,29 @@ const getBusTimes = (direction: Direction, list: List[]) => {
         text: "間隔を狭めて運行",
       });
     } else if (memo !== "") {
-      startMinute =
-        parseInt(memo.replace(/\d{1,2}\:(\d{1,2})より.*/, "$1")) || null;
-      if (startMinute) {
-        buses.push({
-          hour: parseInt(eachHour.time),
-          minute: startMinute,
-          text: "から間隔を狭めて運行",
-        });
+      if (memo.includes("より")) {
+        const raw = parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})より.*/, "$1"));
+        startMinute = isNaN(raw) ? null : raw;
+        console.log(startMinute);
+        if (startMinute) {
+          buses.push({
+            hour: parseInt(eachHour.time),
+            minute: startMinute,
+            text: "から間隔を狭めて運行",
+          });
+        }
       }
-      endMinute =
-        parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})まで.*/, "$1")) || null;
-      if (endMinute) {
-        buses.push({
-          hour: parseInt(eachHour.time),
-          minute: endMinute,
-          text: "まで間隔を狭めて運行",
-        });
+      if (memo.includes("まで")) {
+        const raw = parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})まで.*/, "$1"));
+        endMinute = isNaN(raw) ? null : raw;
+        console.log(endMinute);
+        if (endMinute) {
+          buses.push({
+            hour: parseInt(eachHour.time),
+            minute: endMinute,
+            text: "まで間隔を狭めて運行",
+          });
+        }
       }
     }
 

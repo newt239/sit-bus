@@ -33,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="ja">
       <body className={inter.className}>
-        <main className="flex h-screen flex-col items-center justify-between">
+        <main className="flex h-svh flex-col items-center justify-between">
           <div className="flex h-5/6 flex-col items-center justify-between p-12">
             {children}
           </div>
