@@ -1,14 +1,14 @@
 import dayjs from "dayjs";
 import timezone from "dayjs/plugin/timezone";
 import utc from "dayjs/plugin/utc";
-import { BusAPIResponse, List } from "./types";
+import { BusAPIResponse, Direction, List } from "./types";
+
+dayjs.locale("ja");
+dayjs.extend(utc);
+dayjs.extend(timezone);
+dayjs.tz.setDefault("Asia/Tokyo");
 
 export const getNextBus = async () => {
-  dayjs.locale("ja");
-  dayjs.extend(utc);
-  dayjs.extend(timezone);
-  dayjs.tz.setDefault("Asia/Tokyo");
-
   try {
     const res = await fetch("http://bus.shibaura-it.ac.jp/db/bus_data.json");
     const data: BusAPIResponse = await res.json();
@@ -22,7 +22,7 @@ export const getNextBus = async () => {
     );
     if (!current_timesheet) return null;
 
-    const leftBuses = leftBusTimes(current_timesheet.list);
+    const leftBuses = getBusTimes("left", current_timesheet.list);
     let nextLeftBus = {
       time: "",
       left: 0,
@@ -37,7 +37,7 @@ export const getNextBus = async () => {
       }
     }
 
-    const rightBuses = rightBusTimes(current_timesheet.list);
+    const rightBuses = getBusTimes("right", current_timesheet.list);
     let nextRightBus = {
       time: "",
       left: 0,
@@ -59,32 +59,18 @@ export const getNextBus = async () => {
   }
 };
 
-const leftBusTimes = (list: List[]) => {
+const getBusTimes = (direction: Direction, list: List[]) => {
   const buses = [];
   for (const eachHour of list) {
-    if (eachHour.bus_left.num1 !== "") {
-      const eachHourBuses = eachHour.bus_left.num1.split(".").map((item) => {
-        return {
-          hour: parseInt(eachHour.time),
-          minute: parseInt(item),
-        };
-      });
-      buses.push(...eachHourBuses);
-    }
-  }
-  return buses;
-};
-
-const rightBusTimes = (list: List[]) => {
-  const buses = [];
-  for (const eachHour of list) {
-    if (eachHour.bus_right.num1 !== "") {
-      const eachHourBuses = eachHour.bus_right.num1.split(".").map((item) => {
-        return {
-          hour: parseInt(eachHour.time),
-          minute: parseInt(item),
-        };
-      });
+    if (eachHour[`bus_${direction}`].num1 !== "") {
+      const eachHourBuses = eachHour[`bus_${direction}`].num1
+        .split(".")
+        .map((item) => {
+          return {
+            hour: parseInt(eachHour.time),
+            minute: parseInt(item),
+          };
+        });
       buses.push(...eachHourBuses);
     }
   }

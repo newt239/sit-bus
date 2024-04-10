@@ -1,3 +1,5 @@
+export type Direction = "left" | "right";
+
 export interface BusAPIResponse {
   update: string;
   timesheet: Timesheet[];
