@@ -1,36 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+芝浦工業大学が東大宮駅から大宮キャンパス間で運行している学バスの、次のバスが来るまでの時間を表示します。
 
-## Getting Started
+## 本プロジェクトへの貢献方法
 
-First, run the development server:
+- 不具合を発見した場合は [@newt239](https://twitter.com/newt239) の DM や [Discord サーバー](https://discord.gg/rct5sx6rbZ) 、又は GitHub の Issue で報告してください。
+- 開発者の方からの PR も歓迎します。
+
+## ローカル環境での開発手順
+
+本プロジェクトでは JavaScript ランタイムに [Bun](https://bun.sh) を使用しています。
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+# 依存関係のインストール
+bun install
+
+# 開発サーバーの起動
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+デフォルトでは 3000 番ポート [http://localhost:3000](http://localhost:3000) でアプリケーションが起動します。
