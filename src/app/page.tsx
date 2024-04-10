@@ -24,28 +24,19 @@ export default async function Home() {
       </div>
     );
 
-  const leftBus =
-    nextBus.nextLeftBus.time === "" ? "なし" : `${nextBus.nextLeftBus.time}`;
-  const leftBusLeft =
-    leftBus === "なし" ? "" : `あと${nextBus.nextLeftBus.left}分`;
-  const rightBus =
-    nextBus.nextRightBus.time === "" ? "なし" : `${nextBus.nextRightBus.time}`;
-  const rightBusLeft =
-    rightBus === "なし" ? "" : `あと${nextBus.nextRightBus.left}分`;
-
   return (
     <>
       <main className="flex h-screen flex-col items-center justify-between">
         <div className="flex h-5/6 flex-col items-center justify-between p-24">
           <div className="flex flex-col items-center">
             <div>大学行</div>
-            <div className="text-8xl">{leftBus}</div>
-            <div>{leftBusLeft}</div>
+            <div className="text-8xl">{nextBus.left.time}</div>
+            <div>{nextBus.left.text}</div>
           </div>
           <div className="flex flex-col items-center">
             <div>東大宮駅行</div>
-            <div className="text-8xl">{rightBus}</div>
-            <div>{rightBusLeft}</div>
+            <div className="text-8xl">{nextBus.right.time}</div>
+            <div>{nextBus.right.text}</div>
           </div>
         </div>
         <div className="flex h-1/6 items-center justify-center p-12 gap-4">

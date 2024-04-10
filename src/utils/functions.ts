@@ -23,36 +23,38 @@ export const getNextBus = async () => {
     if (!current_timesheet) return null;
 
     const leftBuses = getBusTimes("left", current_timesheet.list);
-    let nextLeftBus = {
-      time: "",
-      left: 0,
+    let left = {
+      time: "なし",
+      text: "",
     };
     for (const bus of leftBuses) {
       if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
-        nextLeftBus = {
+        left = {
           time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
-          left: bus.minute - minute + (bus.hour - hour) * 60,
+          text:
+            bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
         };
         break;
       }
     }
 
     const rightBuses = getBusTimes("right", current_timesheet.list);
-    let nextRightBus = {
-      time: "",
-      left: 0,
+    let right = {
+      time: "なし",
+      text: "",
     };
     for (const bus of rightBuses) {
       if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
-        nextRightBus = {
+        right = {
           time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
-          left: bus.minute - minute + (bus.hour - hour) * 60,
+          text:
+            bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
         };
         break;
       }
     }
 
-    return { nextLeftBus, nextRightBus };
+    return { left, right };
   } catch (error) {
     console.error(error);
     return null;
@@ -69,6 +71,44 @@ const getBusTimes = (direction: Direction, list: List[]) => {
           return {
             hour: parseInt(eachHour.time),
             minute: parseInt(item),
+            text: null,
+          };
+        });
+      buses.push(...eachHourBuses);
+    }
+
+    const memo = eachHour[`bus_${direction}`].memo1;
+    let startMinute: number | null = null;
+    let endMinute: number | null = null;
+    if (memo !== "") {
+      startMinute =
+        parseInt(memo.replace(/\d{1,2}\:(\d{1,2})より.*/, "$1")) || null;
+      if (startMinute) {
+        buses.push({
+          hour: parseInt(eachHour.time),
+          minute: startMinute,
+          text: "から間隔を狭めて運行",
+        });
+      }
+      endMinute =
+        parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})まで.*/, "$1")) || null;
+      if (endMinute) {
+        buses.push({
+          hour: parseInt(eachHour.time),
+          minute: endMinute,
+          text: "まで間隔を狭めて運行",
+        });
+      }
+    }
+
+    if (eachHour[`bus_${direction}`].num2 !== "") {
+      const eachHourBuses = eachHour[`bus_${direction}`].num2
+        .split(".")
+        .map((item) => {
+          return {
+            hour: parseInt(eachHour.time),
+            minute: parseInt(item),
+            text: null,
           };
         });
       buses.push(...eachHourBuses);
