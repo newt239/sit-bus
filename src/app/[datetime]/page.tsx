@@ -13,9 +13,7 @@ dayjs.extend(timezone);
 dayjs.tz.setDefault("Asia/Tokyo");
 
 export default async function Page({ params }: { params: Params }) {
-  const datetime = dayjs(params.datetime.replaceAll("%3A", ":")).tz(
-    "Asia/Tokyo"
-  );
+  const datetime = dayjs(params.datetime.replaceAll("%3A", ":"));
   const nextBus = await getNextBus(datetime);
 
   if (!nextBus) {
@@ -52,7 +50,6 @@ export default async function Page({ params }: { params: Params }) {
           <div>
             <a
               href={dayjs(`${nextBus.date}T${nextBus.left.time}:00`)
-                .tz("Asia/Tokyo")
                 .add(1, "minute")
                 .format("YYYY-MM-DDTHH:mm:ss")}
               className=" text-blue-500 hover:underline"
@@ -70,7 +67,6 @@ export default async function Page({ params }: { params: Params }) {
           <div>
             <a
               href={dayjs(`${nextBus.date}T${nextBus.right.time}:00`)
-                .tz("Asia/Tokyo")
                 .add(1, "minute")
                 .format("YYYY-MM-DDTHH:mm:ss")}
               className=" text-blue-500 hover:underline"

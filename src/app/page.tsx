@@ -9,7 +9,7 @@ dayjs.extend(timezone);
 dayjs.tz.setDefault("Asia/Tokyo");
 
 export default async function Home() {
-  const current = dayjs("2024-04-10T12:00").tz("Asia/Tokyo");
+  const current = dayjs().tz("Asia/Tokyo");
   const nextBus = await getNextBus(current);
 
   if (!nextBus) {
@@ -46,7 +46,6 @@ export default async function Home() {
           <div>
             <a
               href={dayjs(`${nextBus.date}T${nextBus.left.time}:00`)
-                .tz("Asia/Tokyo")
                 .add(1, "minute")
                 .format("YYYY-MM-DDTHH:mm:ss")}
               className=" text-blue-500 hover:underline"
@@ -64,7 +63,6 @@ export default async function Home() {
           <div>
             <a
               href={dayjs(`${nextBus.date}T${nextBus.right.time}:00`)
-                .tz("Asia/Tokyo")
                 .add(1, "minute")
                 .format("YYYY-MM-DDTHH:mm:ss")}
               className=" text-blue-500 hover:underline"
