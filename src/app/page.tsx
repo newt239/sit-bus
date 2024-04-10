@@ -1,4 +1,7 @@
 import { getNextBus } from "#/utils/functions";
+import dayjs from "dayjs";
+import timezone from "dayjs/plugin/timezone";
+import utc from "dayjs/plugin/utc";
 
 const links = [
   {
@@ -9,8 +12,14 @@ const links = [
   { label: "Twitter", url: "https://twitter.com/newt239" },
 ];
 
+dayjs.locale("ja");
+dayjs.extend(utc);
+dayjs.extend(timezone);
+dayjs.tz.setDefault("Asia/Tokyo");
+
 export default async function Home() {
-  const nextBus = await getNextBus();
+  const current = dayjs().tz("Asia/Tokyo");
+  const nextBus = await getNextBus(current);
   if (!nextBus)
     return (
       <div>
