@@ -19,7 +19,7 @@ dayjs.tz.setDefault("Asia/Tokyo");
 
 export default async function Home() {
   const current = dayjs().tz("Asia/Tokyo");
-  const nextBus = await getNextBus(current);
+  const nextBus = await getNextBus(dayjs("2024-04-10T12:00:00"));
 
   if (!nextBus) {
     return (
@@ -46,11 +46,35 @@ export default async function Home() {
             <div>大学行</div>
             <div className="text-8xl">{nextBus.left.time}</div>
             <div>{nextBus.left.text}</div>
+            {nextBus.left.text !== "" && (
+              <div>
+                <a
+                  href={dayjs(`${nextBus.date}T${nextBus.left.time}:00`)
+                    .add(1, "minute")
+                    .format("YYYY-MM-DDTHH:mm:ss")}
+                  className=" text-blue-500 hover:underline"
+                >
+                  次のバス
+                </a>
+              </div>
+            )}
           </div>
           <div className="flex flex-col items-center">
             <div>東大宮駅行</div>
             <div className="text-8xl">{nextBus.right.time}</div>
             <div>{nextBus.right.text}</div>
+            {nextBus.right.text !== "" && (
+              <div>
+                <a
+                  href={dayjs(`${nextBus.date}T${nextBus.right.time}:00`)
+                    .add(1, "minute")
+                    .format("YYYY-MM-DDTHH:mm:ss")}
+                  className=" text-blue-500 hover:underline"
+                >
+                  次のバス
+                </a>
+              </div>
+            )}
           </div>
         </div>
         <div className="flex h-1/6 items-center justify-center p-12 gap-4">

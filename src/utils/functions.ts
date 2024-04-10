@@ -44,7 +44,7 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
       }
     }
 
-    return { left, right };
+    return { left, right, date: datetime.format("YYYY-MM-DD") };
   } catch (e) {
     console.error(e);
     return null;
