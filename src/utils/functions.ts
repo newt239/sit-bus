@@ -64,7 +64,6 @@ const detectTimesheetId = (datetime: dayjs.Dayjs, data: BusAPIResponse) => {
   if (!calender) return undefined;
   const ts_id = calender.list.find((item) => item.day === day)?.ts_id;
   const dayTimesheet = data.timesheet.find((item) => item.ts_id === ts_id);
-  console.log(dayTimesheet?.ts_id);
   return dayTimesheet?.ts_id;
 };
 
@@ -97,7 +96,6 @@ const getBusTimes = (direction: Direction, list: List[]) => {
       if (memo.includes("より")) {
         const raw = parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})より.*/, "$1"));
         startMinute = isNaN(raw) ? null : raw;
-        console.log(startMinute);
         if (startMinute) {
           buses.push({
             hour: parseInt(eachHour.time),
@@ -109,7 +107,6 @@ const getBusTimes = (direction: Direction, list: List[]) => {
       if (memo.includes("まで")) {
         const raw = parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})まで.*/, "$1"));
         endMinute = isNaN(raw) ? null : raw;
-        console.log(endMinute);
         if (endMinute) {
           buses.push({
             hour: parseInt(eachHour.time),
