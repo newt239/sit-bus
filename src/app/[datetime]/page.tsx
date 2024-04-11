@@ -44,7 +44,7 @@ export default async function Page({ params }: { params: Params }) {
       </div>
       <div className="flex flex-col items-center">
         <div>大学行</div>
-        <div className="text-8xl">
+        <div className="text-7xl">
           {nextBus.left.text1 === "" ? nextBus.left.time : nextBus.left.text1}
         </div>
         <div>{nextBus.left.text2}</div>
@@ -63,7 +63,7 @@ export default async function Page({ params }: { params: Params }) {
       </div>
       <div className="flex flex-col items-center">
         <div>東大宮駅行</div>
-        <div className="text-8xl">
+        <div className="text-7xl">
           {nextBus.right.text1 === ""
             ? nextBus.right.time
             : nextBus.right.text1}

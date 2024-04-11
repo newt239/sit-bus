@@ -21,7 +21,7 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
       if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
         left = {
           time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
-          text1: bus.minute === 60 ? `${bus.hour}時いっぱい` : "",
+          text1: bus.minute === 60 ? `${bus.hour}時台` : "",
           text2:
             bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
         };
@@ -39,7 +39,7 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
       if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
         right = {
           time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
-          text1: bus.minute === 60 ? `${bus.hour}時いっぱい` : "",
+          text1: bus.minute === 60 ? `${bus.hour}時台` : "",
           text2:
             bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
         };

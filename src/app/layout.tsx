@@ -37,7 +37,7 @@ export default function RootLayout({
           <div className="flex h-5/6 flex-col items-center justify-between p-12">
             {children}
           </div>
-          <div className="flex h-1/6 items-center justify-center p-12 gap-4">
+          <div className="flex flex-wrap h-1/6 items-center justify-center p-12 gap-4">
             {links.map((link) => (
               <a
                 key={link.url}
