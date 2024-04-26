@@ -16,10 +16,14 @@ const NextBus: React.FC<NextBusProps> = ({
   text2,
 }) => {
   return (
-    <div className="flex flex-col items-center">
-      <div>{direction === "left" ? "大学行" : "東大宮駅行"}</div>
-      <div className="text-7xl lg:text-9xl">{text1 === "" ? time : text1}</div>
-      <div>{text2}</div>
+    <div className="flex flex-col items-center gap-4">
+      <div className="flex flex-col items-center">
+        <div>{direction === "left" ? "大学行" : "東大宮駅行"}</div>
+        <div className="text-7xl lg:text-9xl">
+          {text1 === "" ? time : text1}
+        </div>
+        <div>{text2}</div>
+      </div>
       {text2 !== "" && (
         <div className="flex">
           <a
