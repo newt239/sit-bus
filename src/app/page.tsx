@@ -17,7 +17,7 @@ export default async function Home() {
   return (
     <>
       <Header>
-        {current.format("ddd")} {current.format("HH:mm")}
+        {current.format("dddd")} {current.format("HH:mm")}
       </Header>
       <main className="flex h-5/6 flex-col lg:flex-row  lg:w-full items-center justify-around p-12">
         <NextBus

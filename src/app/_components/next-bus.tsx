@@ -28,7 +28,7 @@ const NextBus: React.FC<NextBusProps> = ({
               .format("YYYY-MM-DDTHH:mm:ss")}
             className=" text-[#0f4e3c] hover:underline"
           >
-            次のバス＞
+            次のバスを見る
           </a>
         </div>
       )}
