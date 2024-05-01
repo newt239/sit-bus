@@ -1,15 +1,12 @@
-import { getNextBus } from "#/utils/functions";
-import dayjs from "dayjs";
-import "dayjs/locale/ja";
-
 import FetchError from "#/app/_components/fetch-error";
 import Footer from "#/app/_components/footer";
 import Header from "#/app/_components/header";
 import NextBus from "#/app/_components/next-bus";
+import dayjs from "#/utils/dayjs";
+import { getNextBus } from "#/utils/functions";
 
 export default async function Home() {
-  dayjs.locale("ja");
-  const current = dayjs();
+  const current = dayjs().tz();
   const nextBus = await getNextBus(current);
 
   if (!nextBus) return <FetchError />;

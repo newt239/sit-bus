@@ -12,8 +12,7 @@ type Params = {
 };
 
 export default async function Page({ params }: { params: Params }) {
-  dayjs.locale("ja");
-  const datetime = dayjs(params.datetime.replaceAll("%3A", ":"));
+  const datetime = dayjs(params.datetime.replaceAll("%3A", ":")).tz();
   const nextBus = await getNextBus(datetime);
 
   if (!nextBus) return <FetchError />;
