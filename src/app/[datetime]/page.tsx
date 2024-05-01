@@ -1,10 +1,8 @@
-import dayjs from "dayjs";
-import "dayjs/locale/ja";
-
 import FetchError from "#/app/_components/fetch-error";
 import Footer from "#/app/_components/footer";
 import Header from "#/app/_components/header";
 import NextBus from "#/app/_components/next-bus";
+import dayjs from "#/utils/dayjs";
 import { getNextBus } from "#/utils/functions";
 
 type Params = {
