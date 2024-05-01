@@ -1,0 +1,41 @@
+{
+  "lang": "ja",
+  "theme_color": "#0f4e3c",
+  "background_color": "#0f4e3c",
+  "display_override": [
+    "fullscreen",
+    "minimal-ui"
+  ],
+  "display": "standalone",
+  "scope": "/",
+  "start_url": "/",
+  "name": "SIT Bus",
+  "short_name": "SIT Bus",
+  "description": "東大宮駅<->大宮キャンパス間を走る学バスが次に来る時間を表示します。",
+  "short_description": "次の学バスを表示",
+  "categories": [
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-256x256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
