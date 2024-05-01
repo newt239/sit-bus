@@ -6,7 +6,15 @@ import "#/app/globals.css";
 
 export const metadata: Metadata = {
   title: "SIT Bus",
-  description: "次の学バスを表示",
+  description: "東大宮駅<->大宮キャンパス間を走る学バスが次に来る時間を表示",
+  openGraph: {
+    title: "SIT Bus",
+    description: "東大宮駅<->大宮キャンパス間を走る学バスが次に来る時間を表示",
+    url: "https://sit-bus.vercel.app/",
+    siteName: "SIT Bus",
+    locale: "ja_JP",
+    type: "website",
+  },
 };
 
 export const dynamic = "force-dynamic";
