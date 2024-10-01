@@ -1,6 +1,7 @@
 import dayjs from "dayjs";
 import { BusAPIResponse, Direction, List } from "./types";
 
+// 次のバスを特定
 export const getNextBus = async (datetime: dayjs.Dayjs) => {
   const res = await fetch("http://bus.shibaura-it.ac.jp/db/bus_data.json");
   const data: BusAPIResponse = await res.json();
@@ -11,6 +12,7 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
   const hour = parseInt(datetime.format("H"));
   const minute = parseInt(datetime.format("m"));
   try {
+    // 駅前発バス
     const leftBuses = getBusTimes("left", current_timesheet.list);
     let left = {
       time: "なし",
@@ -29,6 +31,7 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
       }
     }
 
+    // 校舎発バス
     const rightBuses = getBusTimes("right", current_timesheet.list);
     let right = {
       time: "なし",
@@ -54,6 +57,7 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
   }
 };
 
+// 今日の日付にもとづくtimesheet_idを取得
 const detectTimesheetId = (datetime: dayjs.Dayjs, data: BusAPIResponse) => {
   const year = datetime.format("YYYY");
   const month = datetime.format("MM");
@@ -67,9 +71,16 @@ const detectTimesheetId = (datetime: dayjs.Dayjs, data: BusAPIResponse) => {
   return dayTimesheet?.ts_id;
 };
 
+// APIのレスポンスデータをもとに完全な配列形式のバス時刻一覧の配列を作成
 const getBusTimes = (direction: Direction, list: List[]) => {
+  //  その日来るすべてのバスが入る配列
   const buses = [];
+  /*
+    時刻表として表示する時に上から num1, memo1, num2, memo2 の順番で表示される。
+    num2 に書き込んでいるのは memo1 に文字列が入っていた時にその下に表示するためだと考えられる。
+  */
   for (const eachHour of list) {
+    // num1, num2にその時間に来るバスの時刻がドット区切りで入っている
     if (eachHour[`bus_${direction}`].num1 !== "") {
       const eachHourBuses = eachHour[`bus_${direction}`].num1
         .split(".")
@@ -84,8 +95,6 @@ const getBusTimes = (direction: Direction, list: List[]) => {
     }
 
     const memo = eachHour[`bus_${direction}`].memo1;
-    let startMinute: number | null = null;
-    let endMinute: number | null = null;
     if (memo === "間隔を狭めて運行" || memo === "適時運行") {
       buses.push({
         hour: parseInt(eachHour.time),
@@ -93,9 +102,10 @@ const getBusTimes = (direction: Direction, list: List[]) => {
         text: memo,
       });
     } else if (memo !== "") {
+      // 「より」「まで」が含まれる場合適時運行か間隔を狭めて運行
       if (memo.includes("より")) {
         const raw = parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})より.*/, "$1"));
-        startMinute = isNaN(raw) ? null : raw;
+        const startMinute = isNaN(raw) ? null : raw;
         if (startMinute) {
           buses.push({
             hour: parseInt(eachHour.time),
@@ -108,7 +118,7 @@ const getBusTimes = (direction: Direction, list: List[]) => {
       }
       if (memo.includes("まで")) {
         const raw = parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})まで.*/, "$1"));
-        endMinute = isNaN(raw) ? null : raw;
+        const endMinute = isNaN(raw) ? null : raw;
         if (endMinute) {
           buses.push({
             hour: parseInt(eachHour.time),
@@ -133,10 +143,13 @@ const getBusTimes = (direction: Direction, list: List[]) => {
         });
       buses.push(...eachHourBuses);
     }
+
+    // memo2に値が入っているケースはいまのところない
   }
   return buses;
 };
 
+// 2桁のゼロ埋め
 const zeroPadding = (num: number) => {
   return num < 10 ? `0${num}` : num;
 };
