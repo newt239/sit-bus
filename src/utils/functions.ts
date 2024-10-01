@@ -86,11 +86,11 @@ const getBusTimes = (direction: Direction, list: List[]) => {
     const memo = eachHour[`bus_${direction}`].memo1;
     let startMinute: number | null = null;
     let endMinute: number | null = null;
-    if (memo === "間隔を狭めて運行") {
+    if (memo === "間隔を狭めて運行" || memo === "適時運行") {
       buses.push({
         hour: parseInt(eachHour.time),
         minute: 60,
-        text: "間隔を狭めて運行",
+        text: memo,
       });
     } else if (memo !== "") {
       if (memo.includes("より")) {
@@ -100,7 +100,9 @@ const getBusTimes = (direction: Direction, list: List[]) => {
           buses.push({
             hour: parseInt(eachHour.time),
             minute: startMinute,
-            text: "から間隔を狭めて運行",
+            text: `から${
+              memo.includes("運行") ? "適時運行" : "間隔を狭めて運行"
+            }`,
           });
         }
       }
@@ -111,7 +113,9 @@ const getBusTimes = (direction: Direction, list: List[]) => {
           buses.push({
             hour: parseInt(eachHour.time),
             minute: endMinute,
-            text: "まで間隔を狭めて運行",
+            text: `まで${
+              memo.includes("運行") ? "適時運行" : "間隔を狭めて運行"
+            }`,
           });
         }
       }
