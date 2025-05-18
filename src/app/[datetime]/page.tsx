@@ -20,7 +20,7 @@ export default async function Page({ params }: { params: Params }) {
       <Header>
         {datetime.format("dddd")} {datetime.format("HH:mm")}
       </Header>
-      <main className="flex h-5/6 flex-col lg:flex-row  lg:w-full items-center justify-around p-12">
+      <main className="flex h-5/6 flex-col lg:flex-row lg:w-full items-center justify-around p-12">
         <NextBus
           direction="left"
           date={nextBus.date}
