@@ -30,6 +30,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ja">
+      <head>
+        <link rel="icon" href="/icon.png" type="image/png" />
+      </head>
       <body className={BIZ_UDPGothic.className}>
         <div className="flex h-svh flex-col items-center justify-between">
           {children}
