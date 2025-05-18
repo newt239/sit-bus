@@ -1,4 +1,5 @@
 import dayjs from "dayjs";
+import Link from "next/link";
 
 type NextBusProps = {
   direction: "left" | "right";
@@ -26,14 +27,14 @@ const NextBus: React.FC<NextBusProps> = ({
       </div>
       {text2 !== "" && (
         <div className="flex">
-          <a
+          <Link
             href={dayjs(`${date}T${time}:00`)
               .add(1, "minute")
               .format("YYYY-MM-DDTHH:mm:ss")}
             className=" text-[#0f4e3c] hover:underline"
           >
             次のバスを見る
-          </a>
+          </Link>
         </div>
       )}
     </div>

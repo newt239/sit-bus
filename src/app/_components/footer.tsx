@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const links = [
   {
     label: "現在時刻",
@@ -15,14 +17,14 @@ const Footer: React.FC = () => {
   return (
     <footer className="flex flex-wrap h-1/6 items-center justify-center p-12 gap-4">
       {links.map((link) => (
-        <a
+        <Link
           key={link.url}
           className=" text-[#0f4e3c] hover:underline"
           href={link.url}
           target={link.url.startsWith("http") ? "_blank" : "_self"}
         >
           {link.label}
-        </a>
+        </Link>
       ))}
     </footer>
   );
