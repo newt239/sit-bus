@@ -1,5 +1,5 @@
 import dayjs from "dayjs";
-import { BusAPIResponse, Direction, List } from "./types";
+import type { BusAPIResponse, Direction, List } from "./types";
 
 // 次のバスを特定
 export const getNextBus = async (datetime: dayjs.Dayjs) => {
@@ -104,7 +104,7 @@ const getBusTimes = (direction: Direction, list: List[]) => {
     } else if (memo !== "") {
       // 「より」「まで」が含まれる場合適時運行か間隔を狭めて運行
       if (memo.includes("より")) {
-        const raw = parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})より.*/, "$1"));
+        const raw = parseInt(memo.replace(/.*\d{1,2}:(\d{1,2})より.*/, "$1"));
         const startMinute = isNaN(raw) ? null : raw;
         if (startMinute) {
           buses.push({
@@ -117,7 +117,7 @@ const getBusTimes = (direction: Direction, list: List[]) => {
         }
       }
       if (memo.includes("まで")) {
-        const raw = parseInt(memo.replace(/.*\d{1,2}\:(\d{1,2})まで.*/, "$1"));
+        const raw = parseInt(memo.replace(/.*\d{1,2}:(\d{1,2})まで.*/, "$1"));
         const endMinute = isNaN(raw) ? null : raw;
         if (endMinute) {
           buses.push({
