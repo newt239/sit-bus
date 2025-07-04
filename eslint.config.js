@@ -1,12 +1,12 @@
-const { FlatCompat } = require('@eslint/eslintrc')
-const js = require('@eslint/js')
-const tseslint = require('typescript-eslint')
+import { FlatCompat } from '@eslint/eslintrc'
+import js from '@eslint/js'
+import tseslint from 'typescript-eslint'
 
 const compat = new FlatCompat({
-  baseDirectory: __dirname,
+  baseDirectory: import.meta.dirname,
 })
 
-module.exports = tseslint.config(
+export default tseslint.config(
   {
     ignores: ['.next/', 'node_modules/', 'out/', 'build/']
   },
