@@ -1,8 +1,8 @@
-import dayjs from "dayjs";
+import type { Dayjs } from "dayjs";
 import type { BusAPIResponse, Direction, List } from "./types";
 
 // 次のバスを特定
-export const getNextBus = async (datetime: dayjs.Dayjs) => {
+export const getNextBus = async (datetime: Dayjs) => {
   const res = await fetch("http://bus.shibaura-it.ac.jp/db/bus_data.json");
   const data: BusAPIResponse = await res.json();
   const ts_id = detectTimesheetId(datetime, data);
@@ -58,7 +58,7 @@ export const getNextBus = async (datetime: dayjs.Dayjs) => {
 };
 
 // 今日の日付にもとづくtimesheet_idを取得
-const detectTimesheetId = (datetime: dayjs.Dayjs, data: BusAPIResponse) => {
+const detectTimesheetId = (datetime: Dayjs, data: BusAPIResponse) => {
   const year = datetime.format("YYYY");
   const month = datetime.format("MM");
   const day = datetime.format("D");
