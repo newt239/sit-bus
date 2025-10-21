@@ -6,6 +6,10 @@ const links = [
     url: "/",
   },
   {
+    label: "プライバシーポリシー",
+    url: "/privacy",
+  },
+  {
     label: "公式の時刻表",
     url: "http://bus.shibaura-it.ac.jp/ts/today_sheet.php",
   },
