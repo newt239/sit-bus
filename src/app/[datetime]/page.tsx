@@ -5,12 +5,12 @@ import NextBus from "#/app/_components/next-bus";
 import dayjs from "#/utils/dayjs";
 import { getNextBus } from "#/utils/functions";
 
-type Params = {
+type Params = Promise<{
   datetime: string;
-};
+}>;
 
 export default async function Page({ params }: { params: Params }) {
-  const datetime = dayjs.tz(params.datetime.replaceAll("%3A", ":"));
+  const datetime = dayjs.tz((await params).datetime.replaceAll("%3A", ":"));
   const nextBus = await getNextBus(datetime);
 
   if (!nextBus) return <FetchError />;
