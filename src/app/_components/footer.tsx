@@ -19,11 +19,11 @@ const links = [
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex flex-wrap h-1/6 items-center justify-center p-12 gap-4">
+    <footer className="flex h-1/6 flex-wrap items-center justify-center gap-4 p-12">
       {links.map((link) => (
         <Link
           key={link.url}
-          className=" text-[#0f4e3c] hover:underline"
+          className="text-[#0f4e3c] hover:underline"
           href={link.url}
           target={link.url.startsWith("http") ? "_blank" : "_self"}
         >

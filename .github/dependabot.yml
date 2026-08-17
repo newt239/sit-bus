@@ -1,0 +1,34 @@
+version: 2
+updates:
+  - package-ecosystem: "bun"
+    directory: "/"
+    schedule:
+      interval: "quarterly"
+      timezone: "Asia/Tokyo"
+      time: "08:00"
+    target-branch: "main"
+    cooldown:
+      default-days: 7
+    ignore:
+      - dependency-name: "typescript"
+        versions: [">=7.0.0 <7.1.0"]
+      - dependency-name: "eslint"
+        versions: [">=10.0.0"]
+      - dependency-name: "@eslint/js"
+        versions: [">=10.0.0"]
+    groups:
+      all-dependencies:
+        patterns:
+          - "*"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "quarterly"
+      timezone: "Asia/Tokyo"
+      time: "08:00"
+    target-branch: "main"
+    groups:
+      all-actions:
+        patterns:
+          - "*"

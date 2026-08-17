@@ -16,7 +16,7 @@ export default async function Home() {
       <Header>
         {current.format("dddd")} {current.format("HH:mm")}
       </Header>
-      <main className="flex h-5/6 flex-col lg:flex-row  lg:w-full items-center justify-around p-12">
+      <main className="flex h-5/6 flex-col items-center justify-around p-12 lg:w-full lg:flex-row">
         <NextBus
           direction="left"
           date={nextBus.date}
