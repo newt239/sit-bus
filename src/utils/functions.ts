@@ -63,7 +63,7 @@ const detectTimesheetId = (datetime: Dayjs, data: BusAPIResponse) => {
   const month = datetime.format("MM");
   const day = datetime.format("D");
   const calender = data.calendar.find(
-    (item) => item.year === year && item.month === month
+    (item) => item.year === year && item.month === month,
   );
   if (!calender) return undefined;
   const ts_id = calender.list.find((item) => item.day === day)?.ts_id;

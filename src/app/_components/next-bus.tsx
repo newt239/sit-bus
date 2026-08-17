@@ -31,7 +31,7 @@ const NextBus: React.FC<NextBusProps> = ({
             href={dayjs(`${date}T${time}:00`)
               .add(1, "minute")
               .format("YYYY-MM-DDTHH:mm:ss")}
-            className=" text-[#0f4e3c] hover:underline"
+            className="text-[#0f4e3c] hover:underline"
           >
             次のバスを見る
           </Link>
