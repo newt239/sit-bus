@@ -18,3 +18,16 @@ bun dev
 ```
 
 デフォルトでは 3000 番ポート [http://localhost:3000](http://localhost:3000) でアプリケーションが起動します。
+
+## コードチェック
+
+型チェック・ESLint・Prettier をまとめて実行できます。PR 作成時には GitHub Actions でも同じチェックが走ります。
+
+```bash
+# 型チェック・Lint・フォーマットチェックをまとめて実行
+bun run codecheck
+
+# Lint とフォーマットの自動修正
+bun run lint:fix
+bun run format:fix
+```
