@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useRouter } from "next/navigation";
 
 type DateTimePickerProps = {
@@ -36,6 +37,12 @@ const DateTimePicker: React.FC<DateTimePickerProps> = ({
         onChange={(e) => navigate(date, e.target.value)}
         className="rounded border border-[#0f4e3c] px-2 py-1"
       />
+      <Link
+        href={basePath || "/"}
+        className="text-[#0f4e3c] underline underline-offset-4 hover:no-underline"
+      >
+        現在時刻
+      </Link>
     </div>
   );
 };

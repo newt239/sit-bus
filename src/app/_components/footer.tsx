@@ -16,10 +16,7 @@ type FooterProps = {
 const Footer: React.FC<FooterProps> = ({ basePath }) => {
   const links = [
     ...(basePath
-      ? [
-          { label: "トップ", url: "/" },
-          { label: "現在時刻", url: basePath },
-        ]
+      ? [{ label: "トップ", url: "/" }]
       : [{ label: "現在時刻", url: "/" }]),
     ...commonLinks,
   ];
