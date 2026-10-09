@@ -1,15 +1,20 @@
-import BusBoard from "#/app/_components/bus-board";
+import type { Metadata } from "next";
+
 import DateTimePicker from "#/app/_components/datetime-picker";
 import Footer from "#/app/_components/footer";
+import RouteBoard from "#/app/_components/route-board";
 import dayjs from "#/utils/dayjs";
+
+export const metadata: Metadata = {
+  title: "東大宮便 | SIT Bus",
+};
 
 type Params = Promise<{
   datetime: string;
 }>;
 
 export default async function Page({ params }: { params: Params }) {
-  const datetimeSegment = (await params).datetime.replaceAll("%3A", ":");
-  const datetime = dayjs.tz(datetimeSegment);
+  const datetime = dayjs.tz((await params).datetime.replaceAll("%3A", ":"));
 
   return (
     <>
@@ -17,8 +22,9 @@ export default async function Page({ params }: { params: Params }) {
         key={datetime.format()}
         date={datetime.format("YYYY-MM-DD")}
         time={datetime.format("HH:mm")}
+        basePath="/higashiomiya"
       />
-      <BusBoard datetime={datetime} datetimeSegment={datetimeSegment} />
+      <RouteBoard route="higashiomiya" datetime={datetime} />
       <Footer />
     </>
   );

@@ -6,8 +6,25 @@ const API_URLS: Record<Route, string> = {
   iwatsuki: "http://bus.shibaura-it.ac.jp/iwatsuki/db/bus_data.json",
 };
 
+export type UpcomingBus = ReturnType<typeof findUpcomingBuses>[number];
+
 // 次のバスを特定
 export const getNextBus = async (datetime: Dayjs, route: Route) => {
+  const result = await getUpcomingBuses(datetime, route, 1);
+  if (!result) return null;
+
+  return {
+    left: result.left.at(0),
+    right: result.right.at(0),
+    date: result.date,
+  };
+};
+
+export const getUpcomingBuses = async (
+  datetime: Dayjs,
+  route: Route,
+  count: number,
+) => {
   try {
     const res = await fetch(API_URLS[route]);
     const data: BusAPIResponse = await res.json();
@@ -20,15 +37,17 @@ export const getNextBus = async (datetime: Dayjs, route: Route) => {
     const hour = parseInt(datetime.format("H"));
     const minute = parseInt(datetime.format("m"));
     return {
-      left: findNextBus(
+      left: findUpcomingBuses(
         getBusTimes("left", current_timesheet.list),
         hour,
         minute,
+        count,
       ),
-      right: findNextBus(
+      right: findUpcomingBuses(
         getBusTimes("right", current_timesheet.list),
         hour,
         minute,
+        count,
       ),
       date: datetime.format("YYYY-MM-DD"),
     };
@@ -38,22 +57,25 @@ export const getNextBus = async (datetime: Dayjs, route: Route) => {
   }
 };
 
-const findNextBus = (
+const findUpcomingBuses = (
   buses: ReturnType<typeof getBusTimes>,
   hour: number,
   minute: number,
+  count: number,
 ) => {
-  for (const bus of buses) {
-    if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
-      return {
-        time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
-        text1: bus.minute === 60 ? `${bus.hour}時台` : "",
-        text2:
-          bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
-      };
-    }
-  }
-  return { time: "なし", text1: "", text2: "" };
+  return buses
+    .filter(
+      (bus) => bus.hour > hour || (bus.hour === hour && bus.minute >= minute),
+    )
+    .slice(0, count)
+    .map((bus) => ({
+      time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
+      text1: bus.minute === 60 ? `${bus.hour}時台` : "",
+      text2:
+        bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
+      isRegular: bus.text === null,
+      departure: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute === 60 ? 0 : bus.minute)}`,
+    }));
 };
 
 // 今日の日付にもとづくtimesheet_idを取得

@@ -1,10 +1,7 @@
 import Link from "next/link";
 
 const links = [
-  {
-    label: "現在時刻",
-    url: "/",
-  },
+  { label: "トップ", url: "/" },
   {
     label: "プライバシーポリシー",
     url: "/privacy",
