@@ -26,7 +26,7 @@ const RouteBoard: React.FC<RouteBoardProps> = async ({ route, datetime }) => {
   ];
 
   return (
-    <main className="flex w-full max-w-5xl flex-1 flex-col justify-center px-4">
+    <main className="flex w-full max-w-5xl flex-1 flex-col px-4">
       <section className="overflow-hidden rounded-lg border-2 border-[#0f4e3c]">
         <h1 className="bg-[#0f4e3c] py-2 text-center text-lg text-white">
           {routeInfo.name}
