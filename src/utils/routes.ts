@@ -19,6 +19,6 @@ export const routes: {
     name: "岩槻便",
     leftLabel: "大学行",
     rightLabel: "岩槻駅行",
-    timetableUrl: "http://bus.shibaura-it.ac.jp/iwatsuki/ts/today_sheet.php",
+    timetableUrl: "http://bus.shibaura-it.ac.jp/iwatsuki/today",
   },
 ];
