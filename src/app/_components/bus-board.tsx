@@ -3,6 +3,7 @@ import Link from "next/link";
 
 import FetchError from "#/app/_components/fetch-error";
 import NextBus from "#/app/_components/next-bus";
+import ServiceEnded from "#/app/_components/service-ended";
 import { getNextBus } from "#/utils/functions";
 import { routes } from "#/utils/routes";
 
@@ -40,20 +41,28 @@ const BusBoard: React.FC<BusBoardProps> = async ({
             </h2>
             {nextBus ? (
               <div className="flex flex-row items-center justify-around gap-4 p-4">
-                <NextBus
-                  label={item.leftLabel}
-                  date={nextBus.date}
-                  time={nextBus.left.time}
-                  text1={nextBus.left.text1}
-                  text2={nextBus.left.text2}
-                />
-                <NextBus
-                  label={item.rightLabel}
-                  date={nextBus.date}
-                  time={nextBus.right.time}
-                  text1={nextBus.right.text1}
-                  text2={nextBus.right.text2}
-                />
+                {nextBus.left ? (
+                  <NextBus
+                    label={item.leftLabel}
+                    date={nextBus.date}
+                    time={nextBus.left.time}
+                    text1={nextBus.left.text1}
+                    text2={nextBus.left.text2}
+                  />
+                ) : (
+                  <ServiceEnded label={item.leftLabel} />
+                )}
+                {nextBus.right ? (
+                  <NextBus
+                    label={item.rightLabel}
+                    date={nextBus.date}
+                    time={nextBus.right.time}
+                    text1={nextBus.right.text1}
+                    text2={nextBus.right.text2}
+                  />
+                ) : (
+                  <ServiceEnded label={item.rightLabel} />
+                )}
               </div>
             ) : (
               <p className="p-4 text-center">運行情報がありません。</p>

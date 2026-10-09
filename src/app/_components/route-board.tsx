@@ -2,6 +2,7 @@ import type { Dayjs } from "dayjs";
 
 import FetchError from "#/app/_components/fetch-error";
 import NextBus from "#/app/_components/next-bus";
+import ServiceEnded from "#/app/_components/service-ended";
 import { getUpcomingBuses, type UpcomingBus } from "#/utils/functions";
 import { routes } from "#/utils/routes";
 import type { Route } from "#/utils/types";
@@ -34,12 +35,7 @@ const RouteBoard: React.FC<RouteBoardProps> = async ({ route, datetime }) => {
           {columns.map(({ label, buses }) => {
             const [first, ...rest] = buses;
             if (!first) {
-              return (
-                <div key={label} className="flex flex-col items-center gap-4">
-                  <div>{label}</div>
-                  <p>本日の運行は終了しました。</p>
-                </div>
-              );
+              return <ServiceEnded key={label} label={label} />;
             }
             return (
               <div key={label} className="flex flex-col gap-4">

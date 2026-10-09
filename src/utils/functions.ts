@@ -13,10 +13,9 @@ export const getNextBus = async (datetime: Dayjs, route: Route) => {
   const result = await getUpcomingBuses(datetime, route, 1);
   if (!result) return null;
 
-  const noBus = { time: "なし", text1: "", text2: "", isRegular: true };
   return {
-    left: result.left[0] ?? noBus,
-    right: result.right[0] ?? noBus,
+    left: result.left.at(0),
+    right: result.right.at(0),
     date: result.date,
   };
 };
