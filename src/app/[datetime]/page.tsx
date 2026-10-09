@@ -8,7 +8,8 @@ type Params = Promise<{
 }>;
 
 export default async function Page({ params }: { params: Params }) {
-  const datetime = dayjs.tz((await params).datetime.replaceAll("%3A", ":"));
+  const datetimeSegment = (await params).datetime.replaceAll("%3A", ":");
+  const datetime = dayjs.tz(datetimeSegment);
 
   return (
     <>
@@ -17,7 +18,7 @@ export default async function Page({ params }: { params: Params }) {
         date={datetime.format("YYYY-MM-DD")}
         time={datetime.format("HH:mm")}
       />
-      <BusBoard datetime={datetime} />
+      <BusBoard datetime={datetime} datetimeSegment={datetimeSegment} />
       <Footer />
     </>
   );
