@@ -5,14 +5,19 @@ import { useRouter } from "next/navigation";
 type DateTimePickerProps = {
   date: string;
   time: string;
+  basePath?: string;
 };
 
-const DateTimePicker: React.FC<DateTimePickerProps> = ({ date, time }) => {
+const DateTimePicker: React.FC<DateTimePickerProps> = ({
+  date,
+  time,
+  basePath = "",
+}) => {
   const router = useRouter();
 
   const navigate = (nextDate: string, nextTime: string) => {
     if (nextDate === "" || nextTime === "") return;
-    router.push(`/${nextDate}T${nextTime}:00`);
+    router.push(`${basePath}/${nextDate}T${nextTime}:00`);
   };
 
   return (

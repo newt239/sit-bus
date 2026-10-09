@@ -7,6 +7,7 @@ type NextBusProps = {
   time: string;
   text1: string;
   text2: string;
+  basePath?: string;
 };
 
 const NextBus: React.FC<NextBusProps> = ({
@@ -15,6 +16,7 @@ const NextBus: React.FC<NextBusProps> = ({
   time,
   text1,
   text2,
+  basePath = "",
 }) => {
   return (
     <div className="flex flex-col items-center gap-4">
@@ -28,9 +30,9 @@ const NextBus: React.FC<NextBusProps> = ({
       <div className="flex min-h-6">
         {text2 !== "" && (
           <Link
-            href={dayjs(`${date}T${time}:00`)
+            href={`${basePath}/${dayjs(`${date}T${time}:00`)
               .add(1, "minute")
-              .format("YYYY-MM-DDTHH:mm:ss")}
+              .format("YYYY-MM-DDTHH:mm:ss")}`}
             className="text-[#0f4e3c] underline underline-offset-4 hover:no-underline"
           >
             次のバスを見る
