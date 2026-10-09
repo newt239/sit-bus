@@ -44,7 +44,6 @@ const BusBoard: React.FC<BusBoardProps> = async ({
                 {nextBus.left ? (
                   <NextBus
                     label={item.leftLabel}
-                    date={nextBus.date}
                     time={nextBus.left.time}
                     text1={nextBus.left.text1}
                     text2={nextBus.left.text2}
@@ -55,7 +54,6 @@ const BusBoard: React.FC<BusBoardProps> = async ({
                 {nextBus.right ? (
                   <NextBus
                     label={item.rightLabel}
-                    date={nextBus.date}
                     time={nextBus.right.time}
                     text1={nextBus.right.text1}
                     text2={nextBus.right.text2}

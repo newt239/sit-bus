@@ -74,6 +74,7 @@ const findUpcomingBuses = (
       text2:
         bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
       isRegular: bus.text === null,
+      departure: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute === 60 ? 0 : bus.minute)}`,
     }));
 };
 
