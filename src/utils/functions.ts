@@ -1,60 +1,59 @@
 import type { Dayjs } from "dayjs";
-import type { BusAPIResponse, Direction, List } from "./types";
+import type { BusAPIResponse, Direction, List, Route } from "./types";
+
+const API_URLS: Record<Route, string> = {
+  higashiomiya: "http://bus.shibaura-it.ac.jp/db/bus_data.json",
+  iwatsuki: "http://bus.shibaura-it.ac.jp/iwatsuki/db/bus_data.json",
+};
 
 // 次のバスを特定
-export const getNextBus = async (datetime: Dayjs) => {
-  const res = await fetch("http://bus.shibaura-it.ac.jp/db/bus_data.json");
-  const data: BusAPIResponse = await res.json();
-  const ts_id = detectTimesheetId(datetime, data);
-  const current_timesheet = data.timesheet.find((item) => item.ts_id === ts_id);
-  if (!current_timesheet) return null;
-
-  const hour = parseInt(datetime.format("H"));
-  const minute = parseInt(datetime.format("m"));
+export const getNextBus = async (datetime: Dayjs, route: Route) => {
   try {
-    // 駅前発バス
-    const leftBuses = getBusTimes("left", current_timesheet.list);
-    let left = {
-      time: "なし",
-      text1: "",
-      text2: "",
-    };
-    for (const bus of leftBuses) {
-      if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
-        left = {
-          time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
-          text1: bus.minute === 60 ? `${bus.hour}時台` : "",
-          text2:
-            bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
-        };
-        break;
-      }
-    }
+    const res = await fetch(API_URLS[route]);
+    const data: BusAPIResponse = await res.json();
+    const ts_id = detectTimesheetId(datetime, data);
+    const current_timesheet = data.timesheet.find(
+      (item) => item.ts_id === ts_id,
+    );
+    if (!current_timesheet) return null;
 
-    // 校舎発バス
-    const rightBuses = getBusTimes("right", current_timesheet.list);
-    let right = {
-      time: "なし",
-      text1: "",
-      text2: "",
+    const hour = parseInt(datetime.format("H"));
+    const minute = parseInt(datetime.format("m"));
+    return {
+      left: findNextBus(
+        getBusTimes("left", current_timesheet.list),
+        hour,
+        minute,
+      ),
+      right: findNextBus(
+        getBusTimes("right", current_timesheet.list),
+        hour,
+        minute,
+      ),
+      date: datetime.format("YYYY-MM-DD"),
     };
-    for (const bus of rightBuses) {
-      if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
-        right = {
-          time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
-          text1: bus.minute === 60 ? `${bus.hour}時台` : "",
-          text2:
-            bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
-        };
-        break;
-      }
-    }
-
-    return { left, right, date: datetime.format("YYYY-MM-DD") };
   } catch (e) {
     console.error(e);
     return null;
   }
+};
+
+const findNextBus = (
+  buses: ReturnType<typeof getBusTimes>,
+  hour: number,
+  minute: number,
+) => {
+  for (const bus of buses) {
+    if (bus.hour > hour || (bus.hour === hour && bus.minute >= minute)) {
+      return {
+        time: `${zeroPadding(bus.hour)}:${zeroPadding(bus.minute)}`,
+        text1: bus.minute === 60 ? `${bus.hour}時台` : "",
+        text2:
+          bus.text || `あと${bus.minute - minute + (bus.hour - hour) * 60}分`,
+      };
+    }
+  }
+  return { time: "なし", text1: "", text2: "" };
 };
 
 // 今日の日付にもとづくtimesheet_idを取得
