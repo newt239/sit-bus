@@ -1,6 +1,7 @@
 import Link from "next/link";
 
-const commonLinks = [
+const links = [
+  { label: "トップ", url: "/" },
   {
     label: "プライバシーポリシー",
     url: "/privacy",
@@ -9,18 +10,7 @@ const commonLinks = [
   { label: "Twitter", url: "https://twitter.com/newt239" },
 ];
 
-type FooterProps = {
-  basePath?: string;
-};
-
-const Footer: React.FC<FooterProps> = ({ basePath }) => {
-  const links = [
-    ...(basePath
-      ? [{ label: "トップ", url: "/" }]
-      : [{ label: "現在時刻", url: "/" }]),
-    ...commonLinks,
-  ];
-
+const Footer: React.FC = () => {
   return (
     <footer className="flex flex-wrap items-center justify-center gap-4 px-4 pt-4 pb-[calc(env(safe-area-inset-bottom)+2.5rem)]">
       {links.map((link) => (

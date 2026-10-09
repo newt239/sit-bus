@@ -21,7 +21,7 @@ export default async function Page() {
         basePath="/higashiomiya"
       />
       <RouteBoard route="higashiomiya" datetime={current} />
-      <Footer basePath="/higashiomiya" />
+      <Footer />
     </>
   );
 }
