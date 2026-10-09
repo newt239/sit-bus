@@ -33,9 +33,9 @@ const BusBoard: React.FC<BusBoardProps> = async ({
             <h2 className="bg-[#0f4e3c] text-center text-lg text-white">
               <Link
                 href={`/${item.route}${datetimeSegment ? `/${datetimeSegment}` : ""}`}
-                className="block py-2 hover:underline"
+                className="block py-2 underline underline-offset-4 hover:no-underline"
               >
-                {item.name} ›
+                {item.name}
               </Link>
             </h2>
             {nextBus ? (
