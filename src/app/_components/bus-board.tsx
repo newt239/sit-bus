@@ -23,7 +23,7 @@ const BusBoard: React.FC<BusBoardProps> = async ({
   if (results.every((result) => result === null)) return <FetchError />;
 
   return (
-    <main className="flex w-full max-w-5xl flex-1 flex-col justify-center gap-6 px-4">
+    <main className="flex w-full max-w-5xl flex-1 flex-col gap-6 px-4">
       {routes.map((item, i) => {
         const nextBus = results[i];
         return (
