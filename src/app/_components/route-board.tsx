@@ -1,4 +1,5 @@
 import type { Dayjs } from "dayjs";
+import Link from "next/link";
 
 import FetchError from "#/app/_components/fetch-error";
 import NextBus from "#/app/_components/next-bus";
@@ -26,7 +27,7 @@ const RouteBoard: React.FC<RouteBoardProps> = async ({ route, datetime }) => {
   ];
 
   return (
-    <main className="flex w-full max-w-5xl flex-1 flex-col px-4">
+    <main className="flex w-full max-w-5xl flex-1 flex-col gap-4 px-4">
       <section className="overflow-hidden rounded-lg border-2 border-[#0f4e3c]">
         <h1 className="bg-[#0f4e3c] py-2 text-center text-lg text-white">
           {routeInfo.name}
@@ -53,6 +54,13 @@ const RouteBoard: React.FC<RouteBoardProps> = async ({ route, datetime }) => {
           })}
         </div>
       </section>
+      <Link
+        href={routeInfo.timetableUrl}
+        target="_blank"
+        className="self-center text-[#0f4e3c] underline underline-offset-4 hover:no-underline"
+      >
+        公式の時刻表
+      </Link>
     </main>
   );
 };
