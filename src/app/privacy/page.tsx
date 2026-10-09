@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
           <p>
             詳細については、
             <Link
-              className="underline hover:no-underline"
+              className="underline underline-offset-4 hover:no-underline"
               href="https://marketingplatform.google.com/about/analytics/terms/jp/"
               target="_blank"
               rel="noreferrer"
@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
             </Link>
             および
             <Link
-              className="underline hover:no-underline"
+              className="underline underline-offset-4 hover:no-underline"
               href="https://policies.google.com/privacy?hl=ja"
               target="_blank"
               rel="noreferrer"
@@ -58,7 +58,7 @@ const PrivacyPolicy = () => {
           <p>
             本ポリシーに関するお問い合わせは、
             <Link
-              className="underline hover:no-underline"
+              className="underline underline-offset-4 hover:no-underline"
               href="https://github.com/newt239/sit-bus/issues"
               target="_blank"
               rel="noreferrer"

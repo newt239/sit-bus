@@ -1,5 +1,7 @@
 export type Direction = "left" | "right";
 
+export type Route = "higashiomiya" | "iwatsuki";
+
 export interface BusAPIResponse {
   update: string;
   timesheet: Timesheet[];

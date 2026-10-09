@@ -1,5 +1,5 @@
 import { GoogleAnalytics } from "@next/third-parties/google";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { BIZ_UDPGothic as NextFont } from "next/font/google";
 
 import "#/app/globals.css";
@@ -7,16 +7,20 @@ import "#/app/globals.css";
 export const metadata: Metadata = {
   title: "SIT Bus",
   description:
-    "東大宮駅と大宮キャンパスの間を走る学バスが次に来る時間を表示します。",
+    "東大宮駅・岩槻駅と大宮キャンパスの間を走る学バスが次に来る時間を表示します。",
   openGraph: {
     title: "SIT Bus",
     description:
-      "東大宮駅と大宮キャンパスの間を走る学バスが次に来る時間を表示します。",
+      "東大宮駅・岩槻駅と大宮キャンパスの間を走る学バスが次に来る時間を表示します。",
     url: "https://sit-bus.vercel.app/",
     siteName: "SIT Bus",
     locale: "ja_JP",
     type: "website",
   },
+};
+
+export const viewport: Viewport = {
+  viewportFit: "cover",
 };
 
 export const dynamic = "force-dynamic";
@@ -34,7 +38,7 @@ export default function RootLayout({
         <link rel="icon" href="/icon.png" type="image/png" />
       </head>
       <body className={BIZ_UDPGothic.className}>
-        <div className="flex h-svh flex-col items-center justify-between">
+        <div className="flex min-h-svh flex-col items-center justify-between pr-[env(safe-area-inset-right)] pl-[env(safe-area-inset-left)]">
           {children}
         </div>
       </body>
