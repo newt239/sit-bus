@@ -3,27 +3,7 @@ import type { Dayjs } from "dayjs";
 import FetchError from "#/app/_components/fetch-error";
 import NextBus from "#/app/_components/next-bus";
 import { getNextBus } from "#/utils/functions";
-import type { Route } from "#/utils/types";
-
-const routes: {
-  route: Route;
-  name: string;
-  leftLabel: string;
-  rightLabel: string;
-}[] = [
-  {
-    route: "higashiomiya",
-    name: "東大宮便",
-    leftLabel: "大学行",
-    rightLabel: "東大宮駅行",
-  },
-  {
-    route: "iwatsuki",
-    name: "岩槻便",
-    leftLabel: "大学行",
-    rightLabel: "岩槻駅行",
-  },
-];
+import { routes } from "#/utils/routes";
 
 type BusBoardProps = {
   datetime: Dayjs;
