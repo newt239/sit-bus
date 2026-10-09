@@ -21,7 +21,7 @@ export default async function Page() {
         basePath="/iwatsuki"
       />
       <RouteBoard route="iwatsuki" datetime={current} />
-      <Footer />
+      <Footer basePath="/iwatsuki" />
     </>
   );
 }
